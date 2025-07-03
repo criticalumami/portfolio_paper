@@ -63,3 +63,70 @@ body, html {
     font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
 }
 
+.media-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.media-thumb {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: box-shadow 0.2s, border 0.2s;
+  border: 3px solid transparent;
+  background: #fff;
+  text-decoration: none;
+}
+
+.media-thumb:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.media-thumb img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.media-thumb:hover img {
+  transform: scale(1.05);
+}
+
+.media-caption {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.media-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.media-desc {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Show up to 2 lines, remove for full line */
+  -webkit-box-orient: vertical;
+}
+
+/* Example hover border colors by category */
+.media-thumb.urban:hover { border-color: #1abc9c !important; }
+.media-thumb.architecture:hover { border-color: #e67e22 !important; }
+.media-thumb.video:hover { border-color: #9b59b6 !important; }
+.media-thumb.design:hover { border-color: #3498db !important; }
+
