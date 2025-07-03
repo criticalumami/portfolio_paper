@@ -8,6 +8,8 @@ cover:
   alt: "pericentral"
   caption: "maps"
   relative: false 
+tags: ["architecture"]
+categories: ["urban"]
 ---
 
 ### On the prospect of reconversion

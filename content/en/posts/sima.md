@@ -8,6 +8,8 @@ cover:
   alt: "cola roundabout in beirut"
   caption: "S07 - Cola Roundabout"
   relative: false 
+tags: ["architecture"]
+categories: ["urban"]
 ---
 
 Analytical maps for the rehabilitation of the pedestrian network in the Cola area, central Beirut. The main public transportation hub was studied and transformed into a pedestrian- and soft mobility-friendly zone. 

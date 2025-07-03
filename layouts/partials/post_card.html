@@ -1,0 +1,12 @@
+{{- $cat := "" -}}
+{{- with .Params.categories }}
+  {{- $cat = index . 0 | lower | urlize -}}
+{{- end }}
+<article class="post-entry {{ $cat }}">
+  <a class="entry-link" href="{{ .RelPermalink }}">
+    {{ with .Params.cover.image }}
+      <img src="{{ . }}" alt="{{ $.Title }}">
+    {{ end }}
+    <h2>{{ .Title }}</h2>
+  </a>
+</article>

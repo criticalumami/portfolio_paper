@@ -2,79 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://karlmaps.netlify.app/posts/acad/</loc>
+    <loc>http://localhost:58501/posts/acad/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://karlmaps.netlify.app/ar/posts/acad_ar/"
+                href="http://localhost:58501/ar/posts/acad_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://karlmaps.netlify.app/posts/acad/"
+                href="http://localhost:58501/posts/acad/"
                 />
   </url><url>
-    <loc>https://karlmaps.netlify.app/</loc>
+    <loc>http://localhost:58501/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://karlmaps.netlify.app/ar/"
+                href="http://localhost:58501/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://karlmaps.netlify.app/"
+                href="http://localhost:58501/"
                 />
   </url><url>
-    <loc>https://karlmaps.netlify.app/posts/sima/</loc>
+    <loc>http://localhost:58501/tags/architecture/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://karlmaps.netlify.app/ar/posts/sima_ar/"
+                href="http://localhost:58501/ar/tags/architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://karlmaps.netlify.app/posts/sima/"
+                href="http://localhost:58501/tags/architecture/"
                 />
   </url><url>
-    <loc>https://karlmaps.netlify.app/about/</loc>
+    <loc>http://localhost:58501/categories/</loc>
+    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://karlmaps.netlify.app/ar/about/"
+                href="http://localhost:58501/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://karlmaps.netlify.app/about/"
+                href="http://localhost:58501/categories/"
                 />
   </url><url>
-    <loc>https://karlmaps.netlify.app/categories/</loc>
+    <loc>http://localhost:58501/posts/sima/</loc>
+    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://karlmaps.netlify.app/ar/categories/"
+                href="http://localhost:58501/ar/posts/sima_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://karlmaps.netlify.app/categories/"
+                href="http://localhost:58501/posts/sima/"
                 />
   </url><url>
-    <loc>https://karlmaps.netlify.app/tags/</loc>
+    <loc>http://localhost:58501/tags/</loc>
+    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://karlmaps.netlify.app/ar/tags/"
+                href="http://localhost:58501/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://karlmaps.netlify.app/tags/"
+                href="http://localhost:58501/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:58501/categories/urban/</loc>
+    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:58501/ar/categories/urban/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:58501/categories/urban/"
+                />
+  </url><url>
+    <loc>http://localhost:58501/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:58501/ar/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:58501/about/"
                 />
   </url>
 </urlset>

@@ -1,8 +1,0 @@
-body:not(.dark) {
-    background: #fff !important;
-    background-color: #fff !important;
-}
-
-body:not(.dark) .main {
-    background: #fff !important;
-}

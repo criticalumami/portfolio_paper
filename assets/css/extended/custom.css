@@ -54,10 +54,12 @@ body.dark .main .post-entry {
     color: #fff !important;
 }
 
-
-
-
+.entry-link.urban:hover { border: 3px solid #1abc9c !important; }
+.entry-link.architecture:hover { border: 3px solid #e67e22 !important; }
+.entry-link.video:hover { border: 3px solid #9b59b6 !important; }
+.entry-link.design:hover { border: 3px solid #3498db !important; }
 
 body, html {
-    font-family: 'Courier New', Courier, monospace !important;
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
 }
+
