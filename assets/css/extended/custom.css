@@ -37,3 +37,27 @@ body.dark map {
 body.dark iframe {
     filter: invert(1) hue-rotate(180deg);
 }
+
+body.dark .entry,
+body.dark .card,
+body.dark .post-entry,
+body.dark .main .post-entry {
+    background: #000 !important;
+    background-color: #000 !important;
+}
+
+body.dark,
+body.dark .entry,
+body.dark .card,
+body.dark .post-entry,
+body.dark .main .post-entry {
+    color: #fff !important;
+}
+
+
+
+
+
+body, html {
+    font-family: 'Courier New', Courier, monospace !important;
+}

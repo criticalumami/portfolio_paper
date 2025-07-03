@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:55427/posts/acad/</loc>
+    <loc>http://localhost:55664/posts/acad/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:55427/ar/posts/acad_ar/"
+                href="http://localhost:55664/ar/posts/acad_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:55427/posts/acad/"
+                href="http://localhost:55664/posts/acad/"
                 />
   </url><url>
-    <loc>http://localhost:55427/</loc>
+    <loc>http://localhost:55664/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:55427/ar/"
+                href="http://localhost:55664/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:55427/"
+                href="http://localhost:55664/"
                 />
   </url><url>
-    <loc>http://localhost:55427/posts/sifr/</loc>
+    <loc>http://localhost:55664/posts/sifr/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:55427/posts/sima/</loc>
+    <loc>http://localhost:55664/posts/sima/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:55427/ar/posts/sima_ar/"
+                href="http://localhost:55664/ar/posts/sima_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:55427/posts/sima/"
+                href="http://localhost:55664/posts/sima/"
                 />
   </url><url>
-    <loc>http://localhost:55427/about/</loc>
+    <loc>http://localhost:55664/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:55427/ar/about/"
+                href="http://localhost:55664/ar/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:55427/about/"
+                href="http://localhost:55664/about/"
                 />
   </url><url>
-    <loc>http://localhost:55427/categories/</loc>
+    <loc>http://localhost:55664/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:55427/ar/categories/"
+                href="http://localhost:55664/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:55427/categories/"
+                href="http://localhost:55664/categories/"
                 />
   </url><url>
-    <loc>http://localhost:55427/tags/</loc>
+    <loc>http://localhost:55664/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:55427/ar/tags/"
+                href="http://localhost:55664/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:55427/tags/"
+                href="http://localhost:55664/tags/"
                 />
   </url>
 </urlset>

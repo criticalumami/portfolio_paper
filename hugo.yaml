@@ -12,8 +12,7 @@ params:
   view: "card"
   homeInfoParams:
     Title: "Work Samples"
-    Content: "Cartography, urban planning and architecture"
-
+    Content: "You've probably ended here by scanning the QR code or clicking on the linnk of my 'work samples' document. Welcome and enjoy browsing. I've mostly created this page in order to test run some interactive cartography libraries (currently using leaflet.js but I think I'll migrate to a vector tiling library in the future. I'm also hosting some 3D models I've designed they're presented via three.js"
 
 markup:
   goldmark:
@@ -29,7 +28,7 @@ languages:
     params:
       homeInfoParams:
         Title: "Work Samples"
-        Content: "Cartography, urban planning and architecture"
+        Content: "You've probably ended here by scanning the QR code or clicking on the linnk of my 'work samples' document. Welcome and enjoy browsing. I've mostly created this page in order to test run some interactive cartography libraries (currently using leaflet.js but I think I'll migrate to a vector tiling library in the future. I'm also hosting some 3D models I've designed they're presented via three.js"
       ShowLanguageSwitcher: true  
     title: "Amer Jbeili "
     menu:
@@ -51,7 +50,7 @@ languages:
     params:  
       homeInfoParams:
         Title: "نماذج أعمال"
-        Content: "خرائط، تخطيط عمراني وهندسة معمارية"
+        Content: "من المحتمل أنكم وصلتم إلى هنا عبر مسح رمز الاستجابة السريعة (QR) أو من خلال النقر على رابط وثيقة “عينات الأعمال” الخاصة بنا. نرحّب بكم ونتمنى لكم تصفحًا ممتعًا. لقد أنشأنا هذه الصفحة أساسًا من أجل تجربة بعض مكتبات الخرائط التفاعلية (نستخدم حاليًا مكتبة Leaflet.js، لكننا نعتقد أننا سننتقل لاحقًا إلى مكتبة تعتمد على تقنيات التبليط الشعاعي Vector Tiling). كما نستضيف هنا بعض النماذج ثلاثية الأبعاد التي قمنا بتصميمها، وهي معروضة باستخدام مكتبة three.js"
       ShowLanguageSwitcher: true
     title: "عامر الجبيلي"
     menu:
@@ -67,4 +66,4 @@ languages:
 
 favicon: "favicon.ico"
 
-featuredImage: "img/cola.png"
+featuredImage: "img/port_bsima.png"
