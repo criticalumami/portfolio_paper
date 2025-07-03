@@ -1,6 +1,6 @@
 ---
 date: '2025-04-11T16:08:58+03:00'
-draft: false
+draft: true
 title: 'نصر من الله وفتح قريب'
 translationKey: "sifr"
 cover:
