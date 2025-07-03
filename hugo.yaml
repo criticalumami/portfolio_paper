@@ -26,6 +26,9 @@ languages:
     weight: 1
     contentDir: "content/en"
     params:
+      homePostsSection: "posts"
+      mainSections: ["posts"]
+      view: "card" 
       homeInfoParams:
         Title: "Work Samples"
         Content: "You've probably ended here by scanning the QR code or clicking on the linnk of my 'work samples' document. Welcome and enjoy browsing. I've mostly created this page in order to test run some interactive cartography libraries (currently using leaflet.js but I think I'll migrate to a vector tiling library in the future. I'm also hosting some 3D models I've designed they're presented via three.js"
