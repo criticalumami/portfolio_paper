@@ -64,6 +64,6 @@ languages:
           url: /about/
           weight: 2
 
-favicon: "img/favicon.ico"
+favicon: "/favicon.ico"
 
 featuredImage: "img/port_bsima.png"
