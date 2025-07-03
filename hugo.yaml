@@ -1,4 +1,4 @@
-baseURL: "https://mubeen.netlify.app"
+baseURL: "https://karlmaps.netlify.app"
 languageCode: "en-us"
 theme: ["PaperMod"]
 params:
