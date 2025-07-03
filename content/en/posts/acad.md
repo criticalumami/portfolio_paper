@@ -2,9 +2,9 @@
 date: '2025-04-11T16:08:58+03:00'
 draft: false
 title: 'Academic Pericenter'
-translationKey: "academ"
+translationKey: "acad"
 cover:
-  image: "/img/academ.png"
+  image: "/img/port_bacad.png"
   alt: "pericentral"
   caption: "maps"
   relative: false 

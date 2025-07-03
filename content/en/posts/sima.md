@@ -4,7 +4,7 @@ draft: false
 title: 'Pedestrian Networks in Beirut'
 translationKey: "welcome-post"
 cover:
-  image: "/img/cola.png"
+  image: "/img/port_bsima.png"
   alt: "cola roundabout in beirut"
   caption: "S07 - Cola Roundabout"
   relative: false 

@@ -1,30 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-/* body:lang(ar), html:lang(ar) {
-    font-family: 'Cairo', sans-serif !important;
-}
-
-[lang="ar"] {
-    font-family: 'Cairo', sans-serif !important;
-}  /* Added closing brace for the [lang="ar"] selector */
-*/
-
-/* Override --code-bg for the light theme */
 body:not(.dark) {
-    --code-bg: #ffffff !important;  /* Change this to your desired color */
-    background-color: #ffffff !important;
+    background: #fff !important;
+    background-color: #fff !important;
 }
 
-/* Additional styles */
-footer {
-    display: none !important;
-}
-
-body.dark {
-    background-color: #000000 !important;
-}
-
-body.dark iframe {
-  filter: invert(1) hue-rotate(180deg);
+body:not(.dark) .main {
+    background: #fff !important;
 }

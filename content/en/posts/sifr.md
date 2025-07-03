@@ -2,9 +2,9 @@
 date: '2025-04-11T16:08:58+03:00'
 draft: false
 title: 'AV'
-translationKey: "av"
+translationKey: "sift"
 cover:
-  image: "/img/sifr.png"
+  image: "/img/port_bsifr.png"
   alt: "cola roundabout in beirut"
   caption: "sift"
   relative: false 

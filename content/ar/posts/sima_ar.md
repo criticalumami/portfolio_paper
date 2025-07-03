@@ -3,10 +3,10 @@ title: "منطقة الكولا"
 date: 2025-04-11
 draft: false
 translationKey: "welcome-post"
-featuredImage: "/img/cola.png"
+featuredImage: "/img/port_bsima.png"
 showImage: true
 cover:
-  image: "/img/cola.png"
+  image: "/img/port_bsima.png"
   alt: "cola roundabout in beirut"
   caption: "S07 - Cola Roundabout"
   relative: false 

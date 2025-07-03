@@ -1,10 +1,19 @@
 baseURL: "https://karlmaps.netlify.app"
 languageCode: "en-us"
 theme: ["PaperMod"]
+
 params:
+  customCSS: ["css/custom.css"]
   defaultTheme: auto
   showImage: true
   hideFooter: true
+  homePostsSection: "posts"
+  mainSections: ["posts"]
+  view: "card"
+  homeInfoParams:
+    Title: "Work Samples"
+    Content: "Cartography, urban planning and architecture"
+
 
 markup:
   goldmark:
