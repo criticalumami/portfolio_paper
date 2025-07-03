@@ -1,0 +1,23 @@
+
+<link href="https://unpkg.com/maplibre-gl@^4.0.0/dist/maplibre-gl.css" rel="stylesheet" />
+<script src="https://unpkg.com/maplibre-gl@^4.0.0/dist/maplibre-gl.js"></script>
+
+<style>
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+</style>
+
+<div id="map"></div>
+
+<script>
+  const map = new maplibregl.Map({
+    container: "map",
+    style: "https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL", // Specify the map style
+    center: [35.5018, 33.8938], // Initial map centerpoint
+    zoom: 13, // Initial map zoom
+  });
+
+  map.addControl(new maplibregl.NavigationControl());
+</script>

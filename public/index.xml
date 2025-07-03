@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Amer Jbeili </title>
+    <link>http://localhost:53586/</link>
+    <description>Recent content on Amer Jbeili </description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Apr 2025 16:08:58 +0300</lastBuildDate>
+    <atom:link href="http://localhost:53586/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Academic Pericenter</title>
+      <link>http://localhost:53586/posts/academ/</link>
+      <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
+      <guid>http://localhost:53586/posts/academ/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;link href=&#34;https://unpkg.com/maplibre-gl@^4.0.0/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://unpkg.com/maplibre-gl@^4.0.0/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
+
+&lt;style&gt;
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+&lt;/style&gt;
+
+&lt;div id=&#34;map&#34;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  const map = new maplibregl.Map({
+    container: &#34;map&#34;,
+    style: &#34;https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL&#34;, 
+    center: [35.5018, 33.8938], 
+    zoom: 13, 
+  });
+
+  map.addControl(new maplibregl.NavigationControl());
+&lt;/script&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Academic Pericenter</title>
+      <link>http://localhost:53586/posts/repercussion/</link>
+      <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
+      <guid>http://localhost:53586/posts/repercussion/</guid>
+      <description>&lt;h2 id=&#34;on-the-prospect-of-reconversion&#34;&gt;On the prospect of reconversion&lt;/h2&gt;
+&lt;p&gt;In the first instance of our reconversion we had decided to reconvene the meeting and throw it back to the second line in command to inspect and attend to the other matters that are more pressing, we thus managed periodically a thorough analysis of the current situation especially after the coming war&lt;/p&gt;
+&lt;p&gt;This is also why we weren&amp;rsquo;t able to reconsider previous chapters of the current contractions, we will thus try and reconfigure the whole study in a manner that appeals to the less versed in the aspects of tpolitical entaglement in the city of beirut and more globally in the levantine and south levantine area.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AV</title>
+      <link>http://localhost:53586/posts/sifr/</link>
+      <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
+      <guid>http://localhost:53586/posts/sifr/</guid>
+      <description>&lt;p&gt;This study aims to analyze academic curricula in the field of architecture and urban planning in Global South countries, with a focus on educational practices in Lebanon and the Levant region. The study addresses the problematic of the impact of imported academic models on shaping the architectural and urban consciousness of students, and questions the extent to which these curricula are suitable for local contexts and the urban challenges specific to the region.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pedestrian Networks in Beirut</title>
+      <link>http://localhost:53586/posts/hello-world/</link>
+      <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
+      <guid>http://localhost:53586/posts/hello-world/</guid>
+      <description>&lt;p&gt;Analytical maps for the rehabilitation of the pedestrian network in the Cola area, central Beirut. The main public transportation hub was studied and transformed into a pedestrian- and soft mobility-friendly zone.&lt;/p&gt;
+&lt;p&gt;How could I ignore this encroachment, when I have for decades witnessed the calculated planning advancing upon my nation and homeland from every direction, achieving all—or at least some—of what it wants, day after day and year after year? That is why I have never picked up the pen without firmly believing I carry a responsibility: either I fulfill it properly, or I crush this pen beneath my feet without regret for it or for myself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:53586/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:53586/about/</guid>
+      <description>&lt;p&gt;i am god&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

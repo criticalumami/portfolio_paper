@@ -1,3 +1,61 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: "https://mubeen.netlify.app"
+languageCode: "en-us"
+theme: ["PaperMod"]
+params:
+  defaultTheme: auto
+  showImage: true
+  hideFooter: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    contentDir: "content/en"
+    params:
+      homeInfoParams:
+        Title: "Work Samples"
+        Content: "Cartography, urban planning and architecture"
+      ShowLanguageSwitcher: true  
+    title: "Amer Jbeili "
+    menu:
+      main:
+        - identifier: blog
+          name: Works
+          url: /posts/
+          weight: 1    
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 2  
+
+  ar:
+    languageName: "العربية"
+    weight: 2
+    contentDir: "content/ar"
+    languageDirection: rtl
+    params:  
+      homeInfoParams:
+        Title: "نماذج أعمال"
+        Content: "خرائط، تخطيط عمراني وهندسة معمارية"
+      ShowLanguageSwitcher: true
+    title: "عامر الجبيلي"
+    menu:
+      main:
+        - identifier: blog
+          name: اعمال
+          url: /posts/
+          weight: 1
+        - identifier: about
+          name: من انا
+          url: /about/
+          weight: 2
+
+favicon: "favicon.ico"
+
+featuredImage: "img/cola.png"
