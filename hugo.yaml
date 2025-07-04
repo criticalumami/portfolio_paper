@@ -70,5 +70,12 @@ languages:
           weight: 2
 
 favicon: "/favicon.ico"
-
 featuredImage: "img/port_bsima.png"
+
+assets: 
+    disableHLJS: true 
+ #     favicon: "<link / abs url>" 
+ #     favicon16x16: "<link / abs url>" 
+ #     favicon32x32: "<link / abs url>" 
+ #     apple_touch_icon: "<link / abs url>" 
+ #     safari_pinned_tab: "<link / abs url>" 
