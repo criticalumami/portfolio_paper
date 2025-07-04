@@ -1,1 +1,1 @@
-i am god
+CV and Contact

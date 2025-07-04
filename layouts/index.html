@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="gallery-grid">
+  <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
+  <p>{{ .Site.Params.homeInfoParams.Content }}</p>
+
+  <div class="grid">
+    {{ range .Site.RegularPages }}
+      {{ if and .Params.thumbnail (gt (len .Params.thumbnail) 0) }}
+      <a href="{{ .RelPermalink }}" class="grid-item {{ index .Params.categories 0 }}">
+        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        <p>{{ .Title }}</p>
+      </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</main>
+{{ end }}

@@ -56,7 +56,7 @@ body.dark .main .post-entry {
 
 .entry-link.urban:hover { border: 3px solid #1abc9c !important; }
 .entry-link.architecture:hover { border: 3px solid #e67e22 !important; }
-.entry-link.video:hover { border: 3px solid #9b59b6 !important; }
+.entry-link.video:hover { border: 3px solid #ff0000 !important; }
 .entry-link.design:hover { border: 3px solid #3498db !important; }
 
 body, html {
@@ -130,3 +130,63 @@ body, html {
 .media-thumb.video:hover { border-color: #9b59b6 !important; }
 .media-thumb.design:hover { border-color: #3498db !important; }
 
+.gallery-grid .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid .grid-item {
+  overflow: hidden;
+}
+
+.gallery-grid .grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  border: 4px solid transparent; /* Invisible border to prevent layout shift */
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.grid-item:hover {
+  transform: scale(1.02);
+}
+
+/* Category-specific hover borders */
+.grid-item.video:hover {
+  border-color: #2ebfcc; /* Green for nature */
+}
+
+.grid-item.urban:hover {
+  border-color: #e74c3c; /* Red for people */
+}
+
+.grid-item.architecture:hover {
+  border-color: #3498db; /* Blue for architecture */
+}
+
+.grid-item p {
+  margin-top: 0.5rem; /* Optional: add spacing between image and title */
+}
+
+.gallery-grid p {
+  margin-bottom: 2rem;
+}
+.gallery-grid h1 {
+  margin-bottom: 1.5rem;
+}

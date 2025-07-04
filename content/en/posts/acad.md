@@ -10,6 +10,7 @@ cover:
   relative: false 
 tags: ["architecture"]
 categories: ["urban"]
+thumbnail: "/img/port_bacad.png"
 ---
 
 ### On the prospect of reconversion

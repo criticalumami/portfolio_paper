@@ -7,18 +7,11 @@ params:
   defaultTheme: auto
   showImage: true
   hideFooter: true
-  homePostsSection: "posts"
-  mainSections: ["posts"]
-  view: "card"
-  homeInfoParams:
-    Title: "Work Samples"
-    Content: "You've probably ended here by scanning the QR code or clicking on the link of my 'work samples' document. Welcome and enjoy browsing. I've mostly created this page in order to test run some interactive cartography libraries (currently using leaflet.js but I think I'll migrate to a vector tiling library in the future. I'm also hosting some 3D models I've designed; they're presented via three.js"
 
 markup:
   goldmark:
     renderer:
       unsafe: true
-
 
 languages:
   en:
@@ -29,10 +22,9 @@ languages:
       defaultTheme: auto
       showImage: true
       hideFooter: true
-
       homePostsSection: "posts"
       mainSections: ["posts"]
-      view: "card" 
+      view: "card"
       homeInfoParams:
         Title: "Work Samples"
         Content: "You've probably ended here by scanning the QR code or clicking on the link of my 'work samples' document. Welcome and enjoy browsing. I've mostly created this page in order to test run some interactive cartography libraries (currently using leaflet.js but I think I'll migrate to a vector tiling library in the future. I'm also hosting some 3D models I've designed; they're presented via three.js"
@@ -41,7 +33,7 @@ languages:
     menu:
       main:
         - identifier: blog
-          name: Works
+          name: List
           url: /posts/
           weight: 1    
         - identifier: about
@@ -54,7 +46,13 @@ languages:
     weight: 2
     contentDir: "content/ar"
     languageDirection: rtl
-    params:  
+    params:
+      defaultTheme: auto
+      showImage: true
+      hideFooter: true
+      homePostsSection: "posts"
+      mainSections: ["posts"]
+      view: "card"
       homeInfoParams:
         Title: "نماذج أعمال"
         Content: "من المحتمل أنكم وصلتم إلى هنا عبر مسح رمز الاستجابة السريعة (QR) أو من خلال النقر على رابط وثيقة “عينات الأعمال” الخاصة بنا. نرحّب بكم ونتمنى لكم تصفحًا ممتعًا. لقد أنشأنا هذه الصفحة أساسًا من أجل تجربة بعض مكتبات الخرائط التفاعلية (نستخدم حاليًا مكتبة Leaflet.js، لكننا نعتقد أننا سننتقل لاحقًا إلى مكتبة تعتمد على تقنيات التبليط الشعاعي Vector Tiling). كما نستضيف هنا بعض النماذج ثلاثية الأبعاد التي قمنا بتصميمها، وهي معروضة باستخدام مكتبة three.js"
