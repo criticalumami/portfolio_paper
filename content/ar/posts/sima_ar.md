@@ -2,7 +2,7 @@
 title: "منطقة الكولا"
 date: 2025-04-11
 draft: false
-translationKey: "welcome-post"
+translationKey: "sima"
 featuredImage: "/img/port_bsima.png"
 showImage: true
 cover:

@@ -2,7 +2,7 @@
 date: '2025-04-11T16:08:58+03:00'
 draft: false
 title: 'Pedestrian Networks'
-translationKey: "welcome-post"
+translationKey: "sima"
 cover:
   image: "/img/port_bsima.png"
   alt: "cola roundabout in beirut"
