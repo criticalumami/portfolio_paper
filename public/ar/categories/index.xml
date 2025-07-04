@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on عامر الجبيلي</title>
-    <link>http://localhost:54611/ar/categories/</link>
+    <link>http://localhost:54776/ar/categories/</link>
     <description>Recent content in Categories on عامر الجبيلي</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>ar</language>
     <lastBuildDate>Fri, 11 Apr 2025 16:08:58 +0300</lastBuildDate>
-    <atom:link href="http://localhost:54611/ar/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54776/ar/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Urban</title>
-      <link>http://localhost:54611/ar/categories/urban/</link>
+      <link>http://localhost:54776/ar/categories/urban/</link>
       <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
-      <guid>http://localhost:54611/ar/categories/urban/</guid>
+      <guid>http://localhost:54776/ar/categories/urban/</guid>
       <description></description>
     </item>
     <item>
       <title>Video</title>
-      <link>http://localhost:54611/ar/categories/video/</link>
+      <link>http://localhost:54776/ar/categories/video/</link>
       <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
-      <guid>http://localhost:54611/ar/categories/video/</guid>
+      <guid>http://localhost:54776/ar/categories/video/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>http://localhost:54611/ar/categories/architecture/</link>
+      <link>http://localhost:54776/ar/categories/architecture/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54611/ar/categories/architecture/</guid>
+      <guid>http://localhost:54776/ar/categories/architecture/</guid>
       <description></description>
     </item>
   </channel>
