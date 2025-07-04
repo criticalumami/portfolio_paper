@@ -1,51 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* body:lang(ar), html:lang(ar) {
-    font-family: 'Cairo', sans-serif !important;
+/* Font settings */
+body, html {
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
 }
 
-[lang="ar"] {
-    font-family: 'Cairo', sans-serif !important;
-}  /* Added closing brace for the [lang="ar"] selector */
-
-/* Override --code-bg for the light theme */
-body:not(.dark) {
-    background: #fff !important;
-    background-color: #fff !important;
-}
-
+/* Light theme background */
+body:not(.dark),
 body:not(.dark) .main {
     background: #fff !important;
 }
 
-/* Additional styles */
+/* Hide footer */
 footer {
     display: none !important;
 }
 
+/* Dark theme backgrounds and text */
 body.dark {
-    background-color: #000000 !important;
+    background-color: #000 !important;
 }
-
-body.dark img {
-    filter: invert(1) hue-rotate(180deg);
-}
-body.dark map {
-    filter: invert(1) hue-rotate(180deg);
-}
+body.dark img,
+body.dark map,
 body.dark iframe {
     filter: invert(1) hue-rotate(180deg);
 }
-
 body.dark .entry,
 body.dark .card,
 body.dark .post-entry,
 body.dark .main .post-entry {
     background: #000 !important;
-    background-color: #000 !important;
+    color: #fff !important;
 }
-
 body.dark,
 body.dark .entry,
 body.dark .card,
@@ -54,139 +41,106 @@ body.dark .main .post-entry {
     color: #fff !important;
 }
 
+/* Category hover borders for entry-link */
 .entry-link.urban:hover { border: 3px solid #1abc9c !important; }
 .entry-link.architecture:hover { border: 3px solid #e67e22 !important; }
 .entry-link.video:hover { border: 3px solid #ff0000 !important; }
 .entry-link.design:hover { border: 3px solid #3498db !important; }
 
-body, html {
-    font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
-}
-
+/* --------- Media Gallery Styles --------- */
 .media-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.2rem;
-  margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+    margin: 2rem 0;
 }
-
 .media-thumb {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  transition: box-shadow 0.2s, border 0.2s;
-  border: 3px solid transparent;
-  background: #fff;
-  text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s, border 0.2s;
+    border: 3px solid transparent;
+    background: #fff;
+    text-decoration: none;
 }
-
 .media-thumb:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
-
 .media-thumb img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.2s;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s;
 }
-
 .media-thumb:hover img {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
-
 .media-caption {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
-
 .media-title {
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  color: #222;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #222;
 }
-
 .media-desc {
-  color: #444;
-  font-size: 1rem;
-  line-height: 1.5;
-  white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2; /* Show up to 2 lines, remove for full line */
-  -webkit-box-orient: vertical;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Show up to 2 lines, remove for full line */
+    -webkit-box-orient: vertical;
 }
-
-/* Example hover border colors by category */
+/* Category-specific hover borders for media-thumb */
 .media-thumb.urban:hover { border-color: #1abc9c !important; }
 .media-thumb.architecture:hover { border-color: #e67e22 !important; }
 .media-thumb.video:hover { border-color: #9b59b6 !important; }
 .media-thumb.design:hover { border-color: #3498db !important; }
 
+/* --------- Gallery Grid Styles --------- */
 .gallery-grid .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
 }
-
 .gallery-grid .grid-item {
-  overflow: hidden;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 4px solid transparent;
+    transition: border-color 0.3s, transform 0.3s;
 }
-
 .gallery-grid .grid-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
-
-.grid-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  overflow: hidden;
-  border: 4px solid transparent; /* Invisible border to prevent layout shift */
-  transition: border-color 0.3s ease, transform 0.3s ease;
+.gallery-grid .grid-item:hover {
+    transform: scale(1.02);
 }
-
-.grid-item img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.grid-item:hover {
-  transform: scale(1.02);
-}
-
-/* Category-specific hover borders */
-.grid-item.video:hover {
-  border-color: #2ebfcc; /* Green for nature */
-}
-
-.grid-item.urban:hover {
-  border-color: #e74c3c; /* Red for people */
-}
-
-.grid-item.architecture:hover {
-  border-color: #3498db; /* Blue for architecture */
-}
-
+/* Category-specific hover borders for grid-item */
+.grid-item.video:hover { border-color: #2ebfcc; }
+.grid-item.urban:hover { border-color: #e74c3c; }
+.grid-item.architecture:hover { border-color: #3498db; }
 .grid-item p {
-  margin-top: 0.5rem; /* Optional: add spacing between image and title */
+    margin-top: 0.5rem;
 }
-
 .gallery-grid p {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 .gallery-grid h1 {
-  margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
