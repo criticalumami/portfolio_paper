@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Amer Jbeili</title>
-    <link>http://localhost:56980/tags/</link>
+    <link>http://localhost:63314/tags/</link>
     <description>Recent content in Tags on Amer Jbeili</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sat, 05 Jul 2025 08:29:05 +0300</lastBuildDate>
-    <atom:link href="http://localhost:56980/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63314/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architecture</title>
-      <link>http://localhost:56980/tags/architecture/</link>
+      <link>http://localhost:63314/tags/architecture/</link>
       <pubDate>Sat, 05 Jul 2025 08:29:05 +0300</pubDate>
-      <guid>http://localhost:56980/tags/architecture/</guid>
+      <guid>http://localhost:63314/tags/architecture/</guid>
       <description></description>
     </item>
   </channel>

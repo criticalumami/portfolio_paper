@@ -15,9 +15,36 @@
   <div class="grid">
     {{ range .Site.RegularPages }}
       {{ if and .Params.thumbnail (gt (len .Params.thumbnail) 0) }}
-      <a href="{{ .RelPermalink }}" class="grid-item {{ index .Params.categories 0 }}">
+      {{- $colors := slice -}}
+      {{- with .Params.categories -}}
+        {{- range . -}}
+          {{- if eq . "urban" }}{{ $colors = $colors | append "#ee4823" }}{{ end -}}
+          {{- if eq . "architecture" }}{{ $colors = $colors | append "#f47e22" }}{{ end -}}
+          {{- if eq . "interior" }}{{ $colors = $colors | append "#abdcdd" }}{{ end -}}
+          {{- if eq . "research" }}{{ $colors = $colors | append "#2cb6b8" }}{{ end -}}
+          {{- if eq . "video" }}{{ $colors = $colors | append "#358887" }}{{ end -}}
+        {{- end -}}
+      {{- end -}}
+      <a href="{{ .RelPermalink }}" class="grid-item"
+        {{- if gt (len $colors) 1 -}}
+          {{- $n := len $colors -}}
+          {{- $stops := slice -}}
+          {{- $width := div 100 $n -}}
+          {{- range $i, $color := $colors -}}
+            {{- $start := mul $width $i -}}
+            {{- $end := mul $width (add $i 1) -}}
+            {{- if eq (add $i 1) $n -}}
+              {{- $end = 100 -}}
+            {{- end -}}
+            {{- $stops = $stops | append (printf "%s %d%% %d%%" $color $start $end) -}}
+          {{- end -}}
+          style="--border-image: linear-gradient(to right, {{ delimit $stops ", " }});"
+        {{- else if gt (len $colors) 0 -}}
+          style="--border-color: {{ index $colors 0 }};"
+        {{- end }}>
         <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
         <p>{{ .Title }}</p>
+        <p>DEBUG Colors: {{ delimit $colors ", " }}</p>
       </a>
       {{ end }}
     {{ end }}

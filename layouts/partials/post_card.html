@@ -1,8 +1,27 @@
-{{- $cat := "" -}}
-{{- with .Params.categories }}
-  {{- $cat = index . 0 | lower | urlize -}}
-{{- end }}
-<article class="post-entry {{ $cat }}">
+{{- $colors := slice -}}
+{{- with .Params.categories -}}
+  {{- range . -}}
+    {{- $color := index site.Data.category_colors . -}}
+    {{- if $color -}}
+      {{- $colors = $colors | append $color -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<article class="post-entry"
+  {{- if gt (len $colors) 1 -}}
+    {{- $n := len $colors -}}
+    {{- $stops := slice -}}
+    {{- range $i, $color := $colors -}}
+      {{- $start := div (mul 100 $i) $n -}}
+      {{- $end := div (mul 100 (add $i 1)) $n -}}
+      {{- if eq (add $i 1) $n -}}{{- $end = 100 -}}{{- end -}}
+      {{- $stops = $stops | append (printf "%s %d%%" $color $start) -}}
+      {{- $stops = $stops | append (printf "%s %d%%" $color $end) -}}
+    {{- end -}}
+    style="--border-image: linear-gradient(to right, {{ delimit $stops ", " }});"
+  {{- else if gt (len $colors) 0 -}}
+    style="--border-color: {{ index $colors 0 }};"
+  {{- end }}>
   <a class="entry-link" href="{{ .RelPermalink }}">
     {{ with .Params.cover.image }}
       <img src="{{ . }}" alt="{{ $.Title }}">
