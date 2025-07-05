@@ -1,5 +1,6 @@
 {{- $colors := slice -}}
-{{- with .Params.categories -}}
+{{- $postCategories := .Params.categories | default .Params.onlcategories -}}
+{{- with $postCategories -}}
   {{- range . -}}
     {{- $color := index site.Data.category_colors . -}}
     {{- if $color -}}

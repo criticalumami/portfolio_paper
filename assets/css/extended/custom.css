@@ -178,12 +178,12 @@ body.dark .main .post-entry {
 }
 
 .post-entry:hover {
-    border-bottom-color: var(--border-color);
+    border-bottom-color: var(--border-color) !important;
 }
 
 /* For multiple categories, use a gradient border */
 .post-entry[style*="--border-image"]:hover {
     border-image-source: var(--border-image);
     border-image-slice: 1;
-    border-bottom: 4px solid;
+    border-bottom: 4px solid !important;
 }
