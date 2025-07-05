@@ -3,6 +3,15 @@
   <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
   <p>{{ .Site.Params.homeInfoParams.Content }}</p>
 
+  <div class="category-buttons">
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+      <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/"
+         class="category-btn {{ $name | urlize }}">
+        {{ $name | title }}
+      </a>
+    {{ end }}
+  </div>
+
   <div class="grid">
     {{ range .Site.RegularPages }}
       {{ if and .Params.thumbnail (gt (len .Params.thumbnail) 0) }}

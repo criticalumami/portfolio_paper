@@ -41,12 +41,6 @@ body.dark .main .post-entry {
     color: #fff !important;
 }
 
-/* Category hover borders for entry-link */
-.entry-link.urban:hover { border: 3px solid #1abc9c !important; }
-.entry-link.architecture:hover { border: 3px solid #e67e22 !important; }
-.entry-link.video:hover { border: 3px solid #ff0000 !important; }
-.entry-link.design:hover { border: 3px solid #3498db !important; }
-
 /* --------- Media Gallery Styles --------- */
 .media-gallery {
     display: grid;
@@ -101,11 +95,6 @@ body.dark .main .post-entry {
     -webkit-line-clamp: 2; /* Show up to 2 lines, remove for full line */
     -webkit-box-orient: vertical;
 }
-/* Category-specific hover borders for media-thumb */
-.media-thumb.urban:hover { border-color: #1abc9c !important; }
-.media-thumb.architecture:hover { border-color: #e67e22 !important; }
-.media-thumb.video:hover { border-color: #9b59b6 !important; }
-.media-thumb.design:hover { border-color: #3498db !important; }
 
 /* --------- Gallery Grid Styles --------- */
 .gallery-grid .grid {
@@ -146,3 +135,26 @@ body.dark .main .post-entry {
 .gallery-grid h1 {
     margin-bottom: 1.5rem;
 }
+/* --------- Category Buttons --------- */
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1 rem;
+  margin: 2rem 0;
+}
+.category-btn {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+.category-btn:hover {
+  transform: scale(1.05);
+}
+.category-btn.video { color: #358887; }
+.category-btn.urban { color: #ee4823; }
+.category-btn.architecture { color: #f47e22; }
+.category-btn.interior { color: #2cb6b8; }
+.category-btn.research { color: #34495e; }
