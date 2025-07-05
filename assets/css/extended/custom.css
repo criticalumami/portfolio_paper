@@ -132,9 +132,11 @@ body.dark .main .post-entry {
     transform: scale(1.02);
 }
 /* Category-specific hover borders for grid-item */
-.grid-item.video:hover { border-color: #2ebfcc; }
-.grid-item.urban:hover { border-color: #e74c3c; }
-.grid-item.architecture:hover { border-color: #3498db; }
+.grid-item.video:hover { border-color: #358887; }
+.grid-item.urban:hover { border-color: #ee4823; }
+.grid-item.architecture:hover { border-color: #f47e22; }
+.grid-item.interior:hover { border-color: #abdcdd; }
+.grid-item.research:hover { border-color: #2cb6b8; }
 .grid-item p {
     margin-top: 0.5rem;
 }
