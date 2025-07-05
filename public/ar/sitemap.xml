@@ -2,149 +2,149 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:54776/ar/categories/</loc>
-    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
+    <loc>https://karlmaps.netlify.app/ar/</loc>
+    <lastmod>2025-07-05T08:22:04+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/categories/"
+                href="https://karlmaps.netlify.app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/categories/"
+                href="https://karlmaps.netlify.app/ar/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/categories/urban/</loc>
-    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
+    <loc>https://karlmaps.netlify.app/ar/posts/</loc>
+    <lastmod>2025-07-05T08:22:04+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/categories/urban/"
+                href="https://karlmaps.netlify.app/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/categories/urban/"
+                href="https://karlmaps.netlify.app/ar/posts/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/categories/video/</loc>
+    <loc>https://karlmaps.netlify.app/ar/categories/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/categories/video/"
+                href="https://karlmaps.netlify.app/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/categories/video/"
+                href="https://karlmaps.netlify.app/ar/categories/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/</loc>
+    <loc>https://karlmaps.netlify.app/ar/categories/urban/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/"
+                href="https://karlmaps.netlify.app/categories/urban/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/"
+                href="https://karlmaps.netlify.app/ar/categories/urban/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/posts/acad_ar/</loc>
+    <loc>https://karlmaps.netlify.app/ar/categories/video/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/posts/acad/"
+                href="https://karlmaps.netlify.app/categories/video/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/posts/acad_ar/"
+                href="https://karlmaps.netlify.app/ar/categories/video/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/posts/</loc>
+    <loc>https://karlmaps.netlify.app/ar/posts/acad_ar/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/posts/"
+                href="https://karlmaps.netlify.app/posts/acad/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/posts/"
+                href="https://karlmaps.netlify.app/ar/posts/acad_ar/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/posts/sifr_ar/</loc>
+    <loc>https://karlmaps.netlify.app/ar/posts/sifr_ar/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:54776/ar/categories/architecture/</loc>
+    <loc>https://karlmaps.netlify.app/ar/categories/architecture/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/categories/architecture/"
+                href="https://karlmaps.netlify.app/categories/architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/categories/architecture/"
+                href="https://karlmaps.netlify.app/ar/categories/architecture/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/tags/architecture/</loc>
+    <loc>https://karlmaps.netlify.app/ar/tags/architecture/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/tags/architecture/"
+                href="https://karlmaps.netlify.app/tags/architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/tags/architecture/"
+                href="https://karlmaps.netlify.app/ar/tags/architecture/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/tags/</loc>
+    <loc>https://karlmaps.netlify.app/ar/tags/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/tags/"
+                href="https://karlmaps.netlify.app/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/tags/"
+                href="https://karlmaps.netlify.app/ar/tags/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/posts/sima_ar/</loc>
+    <loc>https://karlmaps.netlify.app/ar/posts/sima_ar/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/posts/sima/"
+                href="https://karlmaps.netlify.app/posts/sima/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/posts/sima_ar/"
+                href="https://karlmaps.netlify.app/ar/posts/sima_ar/"
                 />
   </url><url>
-    <loc>http://localhost:54776/ar/about/</loc>
+    <loc>https://karlmaps.netlify.app/ar/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:54776/about/"
+                href="https://karlmaps.netlify.app/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:54776/ar/about/"
+                href="https://karlmaps.netlify.app/ar/about/"
                 />
   </url>
 </urlset>
