@@ -2,213 +2,236 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:49954/</loc>
+    <loc>http://localhost:54226/</loc>
     <lastmod>2025-07-05T08:29:05+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/"
+                href="http://localhost:54226/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/"
+                href="http://localhost:54226/"
                 />
   </url><url>
-    <loc>http://localhost:49954/tags/architecture/</loc>
+    <loc>http://localhost:54226/categories/architecture/</loc>
     <lastmod>2025-07-05T08:29:05+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/tags/architecture/"
+                href="http://localhost:54226/ar/categories/architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/tags/architecture/"
+                href="http://localhost:54226/categories/architecture/"
                 />
   </url><url>
-    <loc>http://localhost:49954/categories/</loc>
+    <loc>http://localhost:54226/tags/architecture/</loc>
     <lastmod>2025-07-05T08:29:05+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/categories/"
+                href="http://localhost:54226/ar/tags/architecture/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/categories/"
+                href="http://localhost:54226/tags/architecture/"
                 />
   </url><url>
-    <loc>http://localhost:49954/categories/interior/</loc>
+    <loc>http://localhost:54226/categories/</loc>
     <lastmod>2025-07-05T08:29:05+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/categories/interior/"
+                href="http://localhost:54226/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/categories/interior/"
+                href="http://localhost:54226/categories/"
                 />
   </url><url>
-    <loc>http://localhost:49954/posts/reno/</loc>
+    <loc>http://localhost:54226/categories/interior/</loc>
     <lastmod>2025-07-05T08:29:05+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/posts/reno_ar/"
+                href="http://localhost:54226/ar/categories/interior/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/posts/reno/"
+                href="http://localhost:54226/categories/interior/"
                 />
   </url><url>
-    <loc>http://localhost:49954/tags/</loc>
+    <loc>http://localhost:54226/posts/reno/</loc>
     <lastmod>2025-07-05T08:29:05+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/tags/"
+                href="http://localhost:54226/ar/posts/reno_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/tags/"
+                href="http://localhost:54226/posts/reno/"
                 />
   </url><url>
-    <loc>http://localhost:49954/posts/</loc>
+    <loc>http://localhost:54226/posts/ote/</loc>
+    <lastmod>2025-07-05T08:29:05+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:54226/tags/</loc>
     <lastmod>2025-07-05T08:29:05+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/posts/"
+                href="http://localhost:54226/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/posts/"
+                href="http://localhost:54226/tags/"
                 />
   </url><url>
-    <loc>http://localhost:49954/posts/urb/</loc>
+    <loc>http://localhost:54226/posts/</loc>
+    <lastmod>2025-07-05T08:29:05+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:54226/ar/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:54226/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:54226/posts/urb/</loc>
     <lastmod>2025-07-05T08:22:04+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/posts/sima/"
+                href="http://localhost:54226/posts/sima/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/posts/urb_ar/"
+                href="http://localhost:54226/ar/posts/urb_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/posts/sima_ar/"
+                href="http://localhost:54226/ar/posts/sima_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/posts/urb/"
+                href="http://localhost:54226/posts/urb/"
                 />
   </url><url>
-    <loc>http://localhost:49954/categories/research/</loc>
+    <loc>http://localhost:54226/categories/research/</loc>
     <lastmod>2025-07-05T08:22:04+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:54226/ar/categories/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:54226/categories/research/"
+                />
   </url><url>
-    <loc>http://localhost:49954/posts/acad/</loc>
+    <loc>http://localhost:54226/posts/acad/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/posts/acad_ar/"
+                href="http://localhost:54226/ar/posts/acad_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/posts/acad/"
+                href="http://localhost:54226/posts/acad/"
                 />
   </url><url>
-    <loc>http://localhost:49954/categories/architecture/</loc>
-    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:49954/ar/categories/architecture/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:49954/categories/architecture/"
-                />
-  </url><url>
-    <loc>http://localhost:49954/posts/sima/</loc>
+    <loc>http://localhost:54226/posts/sima/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/posts/urb/"
+                href="http://localhost:54226/posts/urb/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/posts/urb_ar/"
+                href="http://localhost:54226/ar/posts/urb_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/posts/sima_ar/"
+                href="http://localhost:54226/ar/posts/sima_ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/posts/sima/"
+                href="http://localhost:54226/posts/sima/"
                 />
   </url><url>
-    <loc>http://localhost:49954/categories/urban/</loc>
-    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:49954/categories/video/</loc>
+    <loc>http://localhost:54226/categories/urban/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/categories/video/"
+                href="http://localhost:54226/ar/categories/urban/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/categories/video/"
+                href="http://localhost:54226/categories/urban/"
                 />
   </url><url>
-    <loc>http://localhost:49954/posts/sifr/</loc>
+    <loc>http://localhost:54226/categories/video/</loc>
+    <lastmod>2025-04-11T16:08:58+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:54226/ar/categories/video/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:54226/categories/video/"
+                />
+  </url><url>
+    <loc>http://localhost:54226/posts/sifr/</loc>
     <lastmod>2025-04-11T16:08:58+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:49954/about/</loc>
+    <loc>http://localhost:54226/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/about/"
+                href="http://localhost:54226/ar/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/about/"
+                href="http://localhost:54226/about/"
                 />
   </url><url>
-    <loc>http://localhost:49954/series/</loc>
+    <loc>http://localhost:54226/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:49954/ar/series/"
+                href="http://localhost:54226/ar/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:49954/series/"
+                href="http://localhost:54226/series/"
                 />
   </url>
 </urlset>

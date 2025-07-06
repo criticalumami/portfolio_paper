@@ -187,3 +187,25 @@ body.dark .main .post-entry {
     border-image-slice: 1;
     border-bottom: 4px solid !important;
 }
+
+.center {
+	text-align:center;
+}
+
+/* About Page Link Styles */
+.about-links {
+    text-align: center;
+}
+
+.about-links a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.about-links img {
+    display: block;
+    margin: 0 auto;
+}

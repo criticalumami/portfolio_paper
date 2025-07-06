@@ -2,6 +2,7 @@ baseURL: "https://karlmaps.netlify.app"
 languageCode: "en-us"
 theme: ["PaperMod"]
 
+
 params:
   customCSS: ["css/custom.css"]
   defaultTheme: auto
