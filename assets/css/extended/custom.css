@@ -209,3 +209,18 @@ body.dark .main .post-entry {
     display: block;
     margin: 0 auto;
 }
+
+.post-categories {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.post-categories .category-link {
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 0.9rem;
+    text-decoration: bold;
+    color: inherit; /* Inherit color from inline style */
+}
