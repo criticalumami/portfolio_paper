@@ -8,7 +8,7 @@ cover:
   alt: "pericentral"
   caption: "maps"
   relative: false
-onlcategories: ["urban", "architecture", "research", "interior"]
+categories: ["urban", "architecture", "research", "interior"]
 thumbnail: "/img/port_bacad.png"
 ---
 

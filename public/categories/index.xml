@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on Amer Jbeili</title><link>https://karlmaps.netlify.app/categories/</link><description>Recent content in Categories on Amer Jbeili</description><generator>Hugo -- 0.147.9</generator><language>en</language><lastBuildDate>Sat, 05 Jul 2025 08:29:05 +0300</lastBuildDate><atom:link href="https://karlmaps.netlify.app/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Interior</title><link>https://karlmaps.netlify.app/categories/interior/</link><pubDate>Sat, 05 Jul 2025 08:29:05 +0300</pubDate><guid>https://karlmaps.netlify.app/categories/interior/</guid><description/></item><item><title>Research</title><link>https://karlmaps.netlify.app/categories/research/</link><pubDate>Sat, 05 Jul 2025 08:22:04 +0300</pubDate><guid>https://karlmaps.netlify.app/categories/research/</guid><description/></item><item><title>Architecture</title><link>https://karlmaps.netlify.app/categories/architecture/</link><pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate><guid>https://karlmaps.netlify.app/categories/architecture/</guid><description/></item><item><title>Urban</title><link>https://karlmaps.netlify.app/categories/urban/</link><pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate><guid>https://karlmaps.netlify.app/categories/urban/</guid><description/></item><item><title>Video</title><link>https://karlmaps.netlify.app/categories/video/</link><pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate><guid>https://karlmaps.netlify.app/categories/video/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Amer Jbeili</title>
+    <link>http://localhost:49954/categories/</link>
+    <description>Recent content in Categories on Amer Jbeili</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Jul 2025 08:29:05 +0300</lastBuildDate>
+    <atom:link href="http://localhost:49954/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interior</title>
+      <link>http://localhost:49954/categories/interior/</link>
+      <pubDate>Sat, 05 Jul 2025 08:29:05 +0300</pubDate>
+      <guid>http://localhost:49954/categories/interior/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:49954/categories/research/</link>
+      <pubDate>Sat, 05 Jul 2025 08:22:04 +0300</pubDate>
+      <guid>http://localhost:49954/categories/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:49954/categories/architecture/</link>
+      <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
+      <guid>http://localhost:49954/categories/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Urban</title>
+      <link>http://localhost:49954/categories/urban/</link>
+      <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
+      <guid>http://localhost:49954/categories/urban/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>http://localhost:49954/categories/video/</link>
+      <pubDate>Fri, 11 Apr 2025 16:08:58 +0300</pubDate>
+      <guid>http://localhost:49954/categories/video/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
