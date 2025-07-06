@@ -2,7 +2,7 @@
 date: '2025-07-05T08:22:04+03:00'
 draft: flase
 title: 'Communal Housing'
-translationKey: "sima"
+translationKey: "urb"
 cover:
   image: "/img/port_burb.png"
   alt: "cola roundabout in beirut"
