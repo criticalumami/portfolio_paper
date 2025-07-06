@@ -54,7 +54,7 @@ languages:
     params:
       defaultTheme: auto
       showImage: true
-      hideFooter: true
+      hideFooter: flase
       homePostsSection: "posts"
       mainSections: ["posts"]
       view: "card"
