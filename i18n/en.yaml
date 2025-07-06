@@ -1,0 +1,15 @@
+
+- id: urban
+  translation: "Urban"
+- id: architecture
+  translation: "Architecture"
+- id: research
+  translation: "Research"
+- id: interior
+  translation: "Interior"
+- id: video
+  translation: "Video"
+- id: prev_page
+  translation: "Prev"
+- id: next_page
+  translation: "Next"

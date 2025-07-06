@@ -28,5 +28,12 @@
       <img src="{{ . }}" alt="{{ $.Title }}">
     {{ end }}
     <h2>{{ .Title }}</h2>
+    <div class="entry-categories">
+      {{- with .Params.categories -}}
+        {{- range . -}}
+          <span class="category">{{ i18n . }}</span>
+        {{- end -}}
+      {{- end -}}
+    </div>
   </a>
 </article>

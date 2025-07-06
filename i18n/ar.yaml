@@ -1,0 +1,15 @@
+
+- id: urban
+  translation: "عمران"
+- id: architecture
+  translation: "عمارة"
+- id: research
+  translation: "بحث"
+- id: interior
+  translation: "داخلي"
+- id: video
+  translation: "فيديو"
+- id: prev_page
+  translation: "السابق"
+- id: next_page
+  translation: "التالي"
