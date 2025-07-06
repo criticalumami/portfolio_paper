@@ -2,7 +2,7 @@
 
 ![me](/img/ab.png)
 
-**[Resunme](/img/resume.pdf)**
+**[Resume](/img/resume.pdf)**
 
 **[Contact](jbeili.amer@gmail.com)**
 

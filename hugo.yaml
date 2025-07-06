@@ -7,7 +7,6 @@ params:
   customCSS: ["css/custom.css"]
   defaultTheme: auto
   showImage: true
-  hideFooter: true
 
 markup:
   goldmark:
@@ -27,7 +26,7 @@ languages:
     params:
       defaultTheme: auto
       showImage: true
-      hideFooter: true
+      hideFooter: false
       homePostsSection: "posts"
       mainSections: ["posts"]
       view: "card"
