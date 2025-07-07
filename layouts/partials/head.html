@@ -88,6 +88,11 @@
 {{- end }}
 {{- end -}}
 
+{{- /* Favicons */}}
+<link rel="icon" href="{{ site.Params.assets.favicon | default "/favicon.ico" | absURL }}">
+<link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon_180x180 | default "/apple-touch-icon.png" | absURL }}">
+<link rel="manifest" href="{{ site.Params.assets.site_webmanifest | default "/site.webmanifest" | absURL }}">
+<meta name="theme-color" content="#ffffff">
 
 {{- /* RSS */}}
 {{ range .AlternativeOutputFormats -}}
