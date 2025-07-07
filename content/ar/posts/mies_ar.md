@@ -1,7 +1,7 @@
 ---
 date: '2025-04-11T16:08:58+03:00'
 draft: false
-title: 'Bergen Assembly'
+title: 'شورة بيرجن'
 translationKey: "mar"
 cover:
   image: "/img/port_bmar.png"
