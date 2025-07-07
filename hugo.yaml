@@ -1,6 +1,11 @@
 baseURL: "https://karlmaps.netlify.app"
 languageCode: "en-us"
 theme: ["PaperMod"]
+environments:
+  production:
+    baseURL: "https://karlmaps.netlify.app"
+  development:
+    baseURL: "http://localhost:1313"
 
 
 params:
