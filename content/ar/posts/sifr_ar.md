@@ -4,11 +4,11 @@ draft: false
 title: 'نصر من الله وفتح قريب'
 translationKey: "sifr"
 cover:
-  image: "/img/port_bsifr.png"
+  image: "/img/jup_v.gif"
   alt: "cola roundabout in beirut"
   caption: "sift"
   relative: false 
-thumbnail: "/img/port_bsifr.png"
+thumbnail: "/img/jup_v.gif"
 categories: ["video"]
 ---
 تهدف هذه الدراسة إلى تحليل المناهج الأكاديمية في مجال العمارة والتخطيط العمراني في دول الجنوب العالمي، مع التركيز على الممارسات التعليمية في لبنان وبلاد الشام. تتناول الدراسة إشكالية أثر النماذج الأكاديمية المستوردة في تشكيل الوعي المعماري والعمراني لدى الطلاب، وتطرح تساؤلات حول مدى ملاءمة هذه المناهج للسياقات المحلية والتحديات العمرانية الخاصة بالمنطقة.
