@@ -4,13 +4,13 @@ draft: false
 title: 'Bergen Assembly'
 translationKey: "berg"
 cover:
-  image: "/img/port_bamar.png"
+  image: "/img/port_bacad.png"
   alt: "pericentral"
   caption: "maps"
   relative: false 
 tags: ["architecture"]
-categories: ["architecture", "research", "interior"]
-thumbnail: "/img/port_bmar.png"
+categories: ["urban", "architecture", "research", "interior"]
+thumbnail: "/img/port_bacad.png"
 ---
 
 ### On the prospect of reconversion
