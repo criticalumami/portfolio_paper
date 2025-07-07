@@ -10,7 +10,7 @@ cover:
   relative: false 
 tags: ["architecture"]
 categories: ["architecture", "research", "interior"]
-thumbnail: "/img/port_mar.png"
+thumbnail: "/img/port_bmar.png"
 ---
 
 ### On the prospect of reconversion
