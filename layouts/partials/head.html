@@ -89,11 +89,10 @@
 {{- end -}}
 
 {{- /* Favicons */}}
-<link rel="icon" type="image/png" href="{{ site.Params.assets.favicon_png_96x96 | default "/favicon-96x96.png" | absURL }}" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="{{ site.Params.assets.favicon_svg | default "/favicon.svg" | absURL }}" />
-<link rel="shortcut icon" href="{{ site.Params.assets.favicon | default "/favicon.ico" | absURL }}" />
-<link rel="apple-touch-icon" sizes="180x180" href="{{ site.Params.assets.apple_touch_icon_180x180 | default "/apple-touch-icon.png" | absURL }}" />
-<link rel="manifest" href="{{ site.Params.assets.site_webmanifest | default "/site.webmanifest" | absURL }}" />
+<link rel="icon" href="{{ site.Params.assets.favicon | default "/favicon.ico" | absURL }}">
+<link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon_180x180 | default "/apple-touch-icon.png" | absURL }}">
+<link rel="manifest" href="{{ site.Params.assets.site_webmanifest | default "/site.webmanifest" | absURL }}">
+<meta name="theme-color" content="#ffffff">
 
 {{- /* RSS */}}
 {{ range .AlternativeOutputFormats -}}
