@@ -64,12 +64,11 @@ body.dark .main .post-entry {
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-    transition: box-shadow 0.2s, border 0.2s;
     border: 3px solid transparent;
     background: #fff;
     text-decoration: none;
 }
-.media-thumb:hover {
+.media-thumb {
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 .media-thumb img {
@@ -77,9 +76,8 @@ body.dark .main .post-entry {
     height: 220px;
     object-fit: cover;
     display: block;
-    transition: transform 0.2s;
 }
-.media-thumb:hover img {
+.media-thumb img {
     transform: scale(1.05);
 }
 .media-caption {
@@ -119,7 +117,6 @@ body.dark .main .post-entry {
     align-items: center;
     text-align: center;
     border-bottom: 4px solid transparent;
-    transition: border-color 0.3s, transform 0.3s;
 }
 .gallery-grid .grid-item img {
     width: 100%;
@@ -127,12 +124,12 @@ body.dark .main .post-entry {
     display: block;
     object-fit: cover;
 }
-.gallery-grid .grid-item:hover {
+.gallery-grid .grid-item {
     transform: scale(1.02);
     border-bottom-color: var(--border-color, transparent);
 }
 
-.grid-item[style*="--border-image"]:hover {
+.grid-item[style*="--border-image"] {
     border-image-source: var(--border-image);
     border-image-slice: 1;
     border-bottom: 4px solid;
@@ -160,9 +157,8 @@ body.dark .main .post-entry {
   border-radius: 0;
   text-decoration: underline;
   font-weight: bold;
-  transition: color 0.3s ease, transform 0.2s ease;
 }
-.category-btn:hover {
+.category-btn {
   transform: scale(1.05);
 }
 .category-btn.video { color: #358887; }
@@ -174,15 +170,14 @@ body.dark .main .post-entry {
 /* --------- Post Entry Border Styles --------- */
 .post-entry {
     border-bottom: 4px solid transparent;
-    transition: border-color 0.3s ease;
 }
 
-.post-entry:hover {
+.post-entry {
     border-bottom-color: var(--border-color) !important;
 }
 
 /* For multiple categories, use a gradient border */
-.post-entry[style*="--border-image"]:hover {
+.post-entry[style*="--border-image"] {
     border-image-source: var(--border-image);
     border-image-slice: 1;
     border-bottom: 4px solid !important;
