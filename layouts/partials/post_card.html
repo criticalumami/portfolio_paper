@@ -2,28 +2,25 @@
 {{- $postCategories := .Params.categories | default .Params.onlcategories -}}
 {{- with $postCategories -}}
   {{- range . -}}
-    {{- $color := index site.Data.category_colors . -}}
+    {{- $color := index site.Data.category_colors (lower .) -}}
     {{- if $color -}}
       {{- $colors = $colors | append $color -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
-<article class="post-entry"
+<a class="entry-link grid-item"
   {{- if gt (len $colors) 1 -}}
-    {{- $n := len $colors -}}
     {{- $stops := slice -}}
+    {{- $n := len $colors -}}
     {{- range $i, $color := $colors -}}
       {{- $start := div (mul 100 $i) $n -}}
       {{- $end := div (mul 100 (add $i 1)) $n -}}
-      {{- if eq (add $i 1) $n -}}{{- $end = 100 -}}{{- end -}}
-      {{- $stops = $stops | append (printf "%s %d%%" $color $start) -}}
-      {{- $stops = $stops | append (printf "%s %d%%" $color $end) -}}
+      {{- $stops = $stops | append (printf "%s %d%%, %s %d%%" $color $start $color $end) -}}
     {{- end -}}
     style="--border-image: linear-gradient(to right, {{ delimit $stops ", " }});"
   {{- else if gt (len $colors) 0 -}}
     style="--border-color: {{ index $colors 0 }};"
-  {{- end }}>
-  <a class="entry-link" href="{{ .RelPermalink }}">
+  {{- end }} href="{{ .RelPermalink }}">
     {{ with .Params.cover.image }}
       <img src="{{ . }}" alt="{{ $.Title }}">
     {{ end }}
@@ -36,4 +33,3 @@
       {{- end -}}
     </div>
   </a>
-</article>

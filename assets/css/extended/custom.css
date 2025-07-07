@@ -117,6 +117,7 @@ body.dark .main .post-entry {
     align-items: center;
     text-align: center;
     border-bottom: 4px solid transparent;
+    border-bottom-color: var(--border-color) !important;
 }
 .gallery-grid .grid-item img {
     width: 100%;
@@ -126,13 +127,12 @@ body.dark .main .post-entry {
 }
 .gallery-grid .grid-item {
     transform: scale(1.02);
-    border-bottom-color: var(--border-color, transparent);
 }
 
 .grid-item[style*="--border-image"] {
     border-image-source: var(--border-image);
     border-image-slice: 1;
-    border-bottom: 4px solid;
+    border-bottom: 4px solid !important;
 }
 .grid-item p {
 
@@ -166,12 +166,12 @@ body.dark .main .post-entry {
 .category-btn.research { color: #34495e; }
 
 /* --------- Post Entry Border Styles --------- */
-.post-entry, .grid-item {
+.post-entry {
     border-bottom: 4px solid transparent;
     border-bottom-color: var(--border-color);
 }
 
-.post-entry[style*="--border-image"], .grid-item[style*="--border-image"] {
+.post-entry[style*="--border-image"] {
     border-image-source: var(--border-image);
     border-image-slice: 1;
     border-bottom: 4px solid !important;
