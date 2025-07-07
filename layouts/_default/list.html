@@ -8,7 +8,11 @@
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>
-    {{ .Title }}
+    {{- if eq .Kind "term" -}}
+      {{- i18n .Data.Term | default .Title -}}
+    {{- else -}}
+      {{- .Title -}}
+    {{- end -}}
     {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
     {{- with .OutputFormats.Get "rss" }}
     <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
@@ -63,7 +67,28 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<article class="{{ $class }}" {{- partial "post_border_style.html" . }}>
+{{- $colors := slice -}}
+{{- with .Params.categories -}}
+  {{- range . -}}
+    {{- $color := index site.Data.category_colors . -}}
+    {{- if $color -}}
+      {{- $colors = $colors | append $color -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<article class="{{ $class }}" 
+  {{- if gt (len $colors) 1 -}}
+    {{- $stops := slice -}}
+    {{- $n := len $colors -}}
+    {{- range $i, $color := $colors -}}
+      {{- $start := div (mul 100 $i) $n -}}
+      {{- $end := div (mul 100 (add $i 1)) $n -}}
+      {{- $stops = $stops | append (printf "%s %d%%, %s %d%%" $color $start $color $end) -}}
+    {{- end -}}
+    style="--border-image: linear-gradient(to right, {{ delimit $stops ", " }});"
+  {{- else if gt (len $colors) 0 -}}
+    style="--border-color: {{ index $colors 0 }};"
+  {{- end }}>
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">

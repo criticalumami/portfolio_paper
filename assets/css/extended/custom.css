@@ -158,9 +158,7 @@ body.dark .main .post-entry {
   text-decoration: underline;
   font-weight: bold;
 }
-.category-btn {
-  transform: scale(1.05);
-}
+
 .category-btn.video { color: #358887; }
 .category-btn.urban { color: #ee4823; }
 .category-btn.architecture { color: #f47e22; }
@@ -168,14 +166,12 @@ body.dark .main .post-entry {
 .category-btn.research { color: #34495e; }
 
 /* --------- Post Entry Border Styles --------- */
-.post-entry {
+.post-entry, .grid-item {
     border-bottom: 4px solid transparent;
+    border-bottom-color: var(--border-color);
 }
 
-
-
-/* For multiple categories, use a gradient border */
-.post-entry[style*="--border-image"] {
+.post-entry[style*="--border-image"], .grid-item[style*="--border-image"] {
     border-image-source: var(--border-image);
     border-image-slice: 1;
     border-bottom: 4px solid !important;

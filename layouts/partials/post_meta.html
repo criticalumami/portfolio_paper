@@ -1,0 +1,34 @@
+{{- $scratch := newScratch }}
+
+{{- if .Params.categories -}}
+  {{- $categoryLinks := slice -}}
+  {{- range .Params.categories -}}
+    {{- $categoryName := . -}}
+    {{- $categoryColor := index site.Data.category_colors (lower $categoryName) -}}
+    {{- $translatedCategory := i18n $categoryName -}}
+    {{- $style := "" -}}
+    {{- if $categoryColor -}}
+      {{- $style = printf "style=\"color: %s;\"" $categoryColor -}}
+    {{- end -}}
+    {{- $categoryLinks = $categoryLinks | append (printf "<a href=\"%s\" %s>%s</a>" (absLangURL (printf "categories/%s" ($categoryName | urlize))) $style $translatedCategory) -}}
+  {{- end -}}
+  {{- $scratch.Add "meta" (slice (delimit $categoryLinks "&nbsp;" | safeHTML)) -}}
+{{- end -}}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- end }}
+
+{{- if not (.Param "hideAuthor") -}}
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}
