@@ -172,9 +172,7 @@ body.dark .main .post-entry {
     border-bottom: 4px solid transparent;
 }
 
-.post-entry {
-    border-bottom-color: var(--border-color) !important;
-}
+
 
 /* For multiple categories, use a gradient border */
 .post-entry[style*="--border-image"] {
