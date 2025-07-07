@@ -10,7 +10,7 @@
     {{- if $categoryColor -}}
       {{- $style = printf "style=\"color: %s;\"" $categoryColor -}}
     {{- end -}}
-    {{- $categoryLinks = $categoryLinks | append (printf "<a href=\"%s\" %s>%s</a>" (absLangURL (printf "categories/%s" ($categoryName | urlize))) $style $translatedCategory) -}}
+    {{- $categoryLinks = $categoryLinks | append (printf "<a href=\"%s\" %s><strong>%s</strong></a>" (absLangURL (printf "categories/%s" ($categoryName | urlize))) $style $translatedCategory) -}}
   {{- end -}}
   {{- $scratch.Add "meta" (slice (delimit $categoryLinks "&nbsp;" | safeHTML)) -}}
 {{- end -}}
