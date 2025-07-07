@@ -12,6 +12,7 @@ params:
   customCSS: ["css/custom.css"]
   defaultTheme: auto
   showImage: true
+  description: "You've probably ended here by scanning the QR code or clicking on the link of my 'work samples' document. Welcome and enjoy browsing."
 
 markup:
   goldmark:
@@ -80,5 +81,5 @@ languages:
           weight: 2
 
 favicon: "/favicon.ico"
-featuredImage: "img/port_bsima.png"
+featuredImage: "img/port_bacad.png"
 
