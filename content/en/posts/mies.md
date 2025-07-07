@@ -1,16 +1,16 @@
 ---
 date: '2025-04-11T16:08:58+03:00'
 draft: false
-title: 'Bergen Assembly'
-translationKey: "berg"
+title: 'Academic Pericenter'
+translationKey: "acad"
 cover:
-  image: "/img/port_bamar.png"
+  image: "/img/port_bacad.png"
   alt: "pericentral"
   caption: "maps"
   relative: false 
 tags: ["architecture"]
-categories: ["architecture", "research", "interior"]
-thumbnail: "/img/port_mar.png"
+categories: ["urban", "architecture", "research", "interior"]
+thumbnail: "/img/port_bacad.png"
 ---
 
 ### On the prospect of reconversion
