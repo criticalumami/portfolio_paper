@@ -15,8 +15,8 @@ params:
   description: "You've probably ended here by scanning the QR code or clicking on the link of my 'work samples' document. Welcome and enjoy browsing."
   assets:
     favicon: "/favicon.ico"
-    favicon16x16: "/apple-touch-icon-16x16.png"
-    favicon32x32: "/apple-touch-icon-32x32.png"
+    favicon57x57: "/apple-touch-icon-57x57.png"
+    favicon72x72: "/apple-touch-icon-72x72.png"
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/safari-pinned-tab.svg"
 
