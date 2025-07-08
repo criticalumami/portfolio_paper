@@ -9,7 +9,7 @@ cover:
   caption: "maps"
   relative: false 
 tags: ["architecture"]
-categories: ["urban", "architecture", "research", "interior"]
+categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bacad.png"
 ---
 

@@ -9,7 +9,7 @@ cover:
   caption: "S07 - Cola Roundabout"
   relative: false 
 tags: ["architecture"]
-categories: ["interior", "architecture", "urban", "research"]
+categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bsima.png"
 ---
 
