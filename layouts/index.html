@@ -18,11 +18,10 @@
       {{- $colors := slice -}}
       {{- with .Params.categories -}}
         {{- range . -}}
-          {{- if eq . "urban" }}{{ $colors = $colors | append "#ee4823" }}{{ end -}}
-          {{- if eq . "architecture" }}{{ $colors = $colors | append "#f47e22" }}{{ end -}}
-          {{- if eq . "interior" }}{{ $colors = $colors | append "#abdcdd" }}{{ end -}}
-          {{- if eq . "research" }}{{ $colors = $colors | append "#2cb6b8" }}{{ end -}}
-          {{- if eq . "video" }}{{ $colors = $colors | append "#358887" }}{{ end -}}
+          {{- $color := index site.Data.category_colors (lower .) -}}
+          {{- if $color -}}
+            {{- $colors = $colors | append $color -}}
+          {{- end -}}
         {{- end -}}
       {{- end -}}
       <a href="{{ .RelPermalink }}" class="grid-item"
