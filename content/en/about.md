@@ -4,6 +4,6 @@
 
 **[Resume](/img/resume.pdf)**
 
-**[Contact](jbeili.amer@gmail.com)**
+**[Contact](mailto:jbeili.amer@gmail.com)**
 
 </div>

@@ -14,6 +14,7 @@ body {
 /* Font settings */
 body, html {
     font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
+    font-size: 0.9rem;
 }
 
 /* Light theme background */
@@ -107,7 +108,7 @@ body.dark .main .post-entry {
 /* --------- Gallery Grid Styles --------- */
 .gallery-grid .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 1rem;
 }
 .gallery-grid .grid-item {
@@ -125,18 +126,15 @@ body.dark .main .post-entry {
     display: block;
     object-fit: cover;
 }
-.gallery-grid .grid-item {
-    transform: scale(1.02);
-}
 
 .grid-item[style*="--border-image"] {
     border-image-source: var(--border-image);
     border-image-slice: 1;
-    border-bottom: 4px solid !important;
+    border-bottom: 3px solid !important;
 }
 .grid-item p {
-
     margin-top: 0.5rem;
+    font-size: 1.1rem;
 }
 .gallery-grid p {
     margin-bottom: 0.5rem;
@@ -144,37 +142,22 @@ body.dark .main .post-entry {
 .gallery-grid h1 {
     margin-bottom: 1.5rem;
 }
-/* --------- Category Buttons --------- */
-.category-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1 rem;
-  margin: 2rem 0;
-}
-.category-btn {
-  display: inline-block;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0;
-  text-decoration: underline;
-  font-weight: bold;
-}
 
-.category-btn.video { color: #358887; }
-.category-btn.urban { color: #ee4823; }
-.category-btn.architecture { color: #f47e22; }
-.category-btn.interior { color: #2cb6b8; }
-.category-btn.research { color: #34495e; }
 
 /* --------- Category Links --------- */
 .category-links {
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem 0;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  justify-content:center;
+  align-items: center;
+  font-size: 1.1em;
 }
 
 .category-link-item {
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.2em;
   text-decoration: none; /* Remove default underline from the anchor tag */
 }
 
@@ -242,12 +225,12 @@ body.dark .main .post-entry {
 /* Custom styles for tag-entry posts */
 .tag-entry {
     border: none; /* Remove all borders from .post-entry */
-    border-bottom: 4px solid; /* Set a bottom border, color will be determined by border-image or border-color */
+    border-bottom: 2px solid; /* Set a bottom border, color will be determined by border-image or border-color */
 
     /* For gradient borders */
     border-image-source: var(--border-image);
     border-image-slice: 0 0 1 0; /* Slice only the bottom part (top right bottom left) */
-    border-image-width: 0 0 4px 0; /* Apply width only to bottom */
+    border-image-width: 0 0 2px 0; /* Apply width only to bottom */
     border-image-outset: 0;
     border-image-repeat: stretch;
     border-style: solid; /* Ensure border style is solid for border-image to show */
@@ -264,4 +247,16 @@ body.dark .main .post-entry {
 
 .tag-entry .entry-cover {
     display: none;
+}
+
+.post-thumbnail {
+    float: left;
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.page-header h1 {
+    font-size: 28px;
 }

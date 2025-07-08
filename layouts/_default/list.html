@@ -7,7 +7,12 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>
+  {{- $categoryColor := "" -}}
+  {{- if eq .Kind "term" -}}
+    {{- $categoryName := .Data.Term -}}
+    {{- $categoryColor = index site.Data.category_colors (lower $categoryName) -}}
+  {{- end -}}
+  <h1 {{- if $categoryColor }} style="color: {{ $categoryColor }}; text-decoration: underline;"{{- end }}>
     {{- if eq .Kind "term" -}}
       {{- i18n .Data.Term | default .Title -}}
     {{- else -}}
@@ -92,6 +97,9 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
+    {{- if .Params.thumbnail }}
+    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="post-thumbnail">
+    {{- end }}
     <h2 class="entry-hint-parent">
       {{- .Title }}
       {{- if .Draft }}

@@ -4,11 +4,11 @@ draft: false
 title: 'Videography'
 translationKey: "sift"
 cover:
-  image: "/img/jup_v.gif"
+  image: "/img/port_bjup.png"
   alt: "cola roundabout in beirut"
   caption: "sift"
   relative: false 
-thumbnail: "/img/jup_v.gif"
+thumbnail: "/img/port_bjup.png"
 categories: ["research", "video"]
 ---
 
@@ -21,3 +21,6 @@ This study seeks to:
 Analyze the material driving factors behind the selection of academic curricula and projects
 Identify the beneficiaries of controlling these curricula
 Identify the dominant factors that restrict patterns of academic research in Lebanon and the Levant in general
+
+
+![jup](/img/jup_v.gif)
