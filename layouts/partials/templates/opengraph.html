@@ -38,7 +38,9 @@
   {{- end }}
 {{- end }}
 
-{{- if .Params.cover.image -}}
+{{- if .Params.thumbnail -}}
+  <meta property="og:image" content="{{ .Params.thumbnail | absURL }}">
+{{- else if .Params.cover.image -}}
   {{- if (ne .Params.cover.relative true) }}
     <meta property="og:image" content="{{ .Params.cover.image | absURL }}">
   {{- else}}
