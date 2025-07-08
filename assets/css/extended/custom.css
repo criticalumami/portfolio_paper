@@ -118,7 +118,7 @@ body.dark .main .post-entry {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border-bottom: 4px solid transparent;
+    border-bottom: 3px solid transparent;
     border-bottom-color: var(--border-color) !important;
 }
 .gallery-grid .grid-item img {
@@ -245,7 +245,7 @@ body.dark .main .post-entry {
     border-image: none; /* Disable border-image for single colors */
     border-bottom-color: var(--border-color); /* Set the bottom border color */
     border-bottom-style: solid;
-    border-bottom-width: 4px;
+    border-bottom-width: 3px;
 }
 
 /* Ensure single-category grid items have a 3px solid border and no border-image */
