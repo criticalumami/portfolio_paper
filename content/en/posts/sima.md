@@ -4,13 +4,13 @@ draft: false
 title: 'Pedestrian Networks'
 translationKey: "sima"
 cover:
-  image: "/img/port_bsima.png"
+  image: "/img/port_bsima.webp"
   alt: "cola roundabout in beirut"
   caption: "S07 - Cola Roundabout"
   relative: false 
 tags: ["architecture"]
 categories: ["urban", "architecture", "interior", "research"]
-thumbnail: "/img/port_bsima.png"
+thumbnail: "/img/port_bsima.webp"
 type: "Sample Type"
 location: "Sample Location"
 function: "Sample Function"

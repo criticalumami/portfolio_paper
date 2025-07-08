@@ -4,11 +4,11 @@ draft: false
 title: 'نصر من الله وفتح قريب'
 translationKey: "sifr"
 cover:
-  image: "/img/port_bjup.png"
+  image: "/img/port_bjup.webp"
   alt: "cola roundabout in beirut"
   caption: "sift"
   relative: false 
-thumbnail: "/img/port_bjup.png"
+thumbnail: "/img/port_bjup.webp"
 type: "نوع العينة"
 location: "موقع العينة"
 function: "وظيفة العينة"

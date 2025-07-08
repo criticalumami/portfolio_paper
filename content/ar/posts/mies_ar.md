@@ -4,13 +4,13 @@ draft: false
 title: 'شورة بيرجن'
 translationKey: "mar"
 cover:
-  image: "/img/port_bmar.png"
+  image: "/img/port_bmar.webp"
   alt: "pericentral"
   caption: "maps"
   relative: false 
 tags: ["architecture"]
 categories: ["architecture", "research", "interior"]
-thumbnail: "/img/port_bmar.png"
+thumbnail: "/img/port_bmar.webp"
 type: "نوع العينة"
 location: "موقع العينة"
 function: "وظيفة العينة"

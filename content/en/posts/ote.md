@@ -4,13 +4,13 @@ draft: false
 title: 'Rooftiles Showroom'
 translationKey: "ote"
 cover:
-  image: "/img/port_bote.png"
+  image: "/img/port_bote.webp"
   alt: "vitrine"
   caption: "vitrine"
   relative: false 
 tags: ["architecture"]
 categories: ["architecture", "interior"]
-thumbnail: "/img/port_bote.png"
+thumbnail: "/img/port_bote.webp"
 type: "Sample Type"
 location: "Sample Location"
 function: "Sample Function"

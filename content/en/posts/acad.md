@@ -4,13 +4,13 @@ draft: false
 title: 'Pericentral Beirut'
 translationKey: "acad"
 cover:
-  image: "/img/port_bacad.png"
+  image: "/img/port_bacad.webp"
   alt: "pericentral"
   caption: "maps"
   relative: false 
 tags: ["architecture"]
 categories: ["urban", "architecture", "interior", "research"]
-thumbnail: "/img/port_bacad.png"
+thumbnail: "/img/port_bacad.webp"
 type: "Sample Type"
 location: "Sample Location"
 function: "Sample Function"

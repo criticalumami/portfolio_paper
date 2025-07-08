@@ -4,11 +4,11 @@ draft: false
 title: 'Videography'
 translationKey: "sift"
 cover:
-  image: "/img/port_bjup.png"
+  image: "/img/port_bjup.webp"
   alt: "cola roundabout in beirut"
   caption: "sift"
   relative: false 
-thumbnail: "/img/port_bjup.png"
+thumbnail: "/img/port_bjup.webp"
 type: "Sample Type"
 location: "Sample Location"
 function: "Sample Function"

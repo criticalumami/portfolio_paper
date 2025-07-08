@@ -4,13 +4,13 @@ draft: flase
 title: 'مساكن طلبة'
 translationKey: "urb"
 cover:
-  image: "/img/port_burb.png"
+  image: "/img/port_burb.webp"
   alt: "cola roundabout in beirut"
   caption: "garden housing"
   relative: false 
 tags: ["architecture"]
 categories: ["architecture"]
-thumbnail: "/img/port_burb.png"
+thumbnail: "/img/port_burb.webp"
 type: "نوع العينة"
 location: "موقع العينة"
 function: "وظيفة العينة"

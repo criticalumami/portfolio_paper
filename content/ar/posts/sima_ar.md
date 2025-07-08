@@ -3,16 +3,16 @@ title: "منطقة الكولا"
 date: 2025-04-11
 draft: false
 translationKey: "sima"
-featuredImage: "/img/port_bsima.png"
+featuredImage: "/img/port_bsima.webp"
 showImage: true
 cover:
-  image: "/img/port_bsima.png"
+  image: "/img/port_bsima.webp"
   alt: "cola roundabout in beirut"
   caption: "S07 - Cola Roundabout"
   relative: false 
 tags: ["architecture"]
 categories: ["interior", "architecture", "urban", "research"]
-thumbnail: "/img/port_bsima.png"
+thumbnail: "/img/port_bsima.webp"
 type: "نوع العينة"
 location: "موقع العينة"
 function: "وظيفة العينة"

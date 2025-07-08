@@ -4,12 +4,12 @@ draft: false
 title: 'محور الابحاث'
 translationKey: "acad"
 cover:
-  image: "/img/port_bacad.png"
+  image: "/img/port_bacad.webp"
   alt: "pericentral"
   caption: "maps"
   relative: false
 categories: ["urban", "architecture", "research", "interior"]
-thumbnail: "/img/port_bacad.png"
+thumbnail: "/img/port_bacad.webp"
 type: "نوع العينة"
 location: "موقع العينة"
 function: "وظيفة العينة"

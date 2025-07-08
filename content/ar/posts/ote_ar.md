@@ -3,16 +3,16 @@ title: " اوتيكو"
 date: 2025-04-11
 draft: false
 translationKey: "ote"
-featuredImage: "/img/port_bote.png"
+featuredImage: "/img/port_bote.webp"
 showImage: true
 cover:
-  image: "/img/port_bote.png"
+  image: "/img/port_bote.webp"
   alt: "oteco"
   caption: "oteco"
   relative: false 
 tags: ["architecture"]
 categories: ["architecture","interior"]
-thumbnail: "/img/port_bote.png"
+thumbnail: "/img/port_bote.webp"
 type: "نوع العينة"
 location: "موقع العينة"
 function: "وظيفة العينة"

@@ -4,13 +4,13 @@ draft: false
 title: 'ترميم في كارولاينا'
 translationKey: "reno"
 cover:
-  image: "/img/port_breno.png"
+  image: "/img/port_breno.webp"
   alt: "north carolina" 
   caption: "North Carolina Renovation"
   relative: false 
 tags: ["architecture"]
 categories: ["interior", "architecture", "urban"]
-thumbnail: "/img/port_breno.png"
+thumbnail: "/img/port_breno.webp"
 type: "نوع العينة"
 location: "موقع العينة"
 function: "وظيفة العينة"

@@ -4,13 +4,13 @@ draft: false
 title: 'Bergen Assembly'
 translationKey: "mar"
 cover:
-  image: "/img/port_bmar.png"
+  image: "/img/port_bmar.webp"
   alt: "pericentral"
   caption: "maps"
   relative: false 
 tags: ["architecture"]
 categories: ["architecture", "interior", "research"]
-thumbnail: "/img/port_bmar.png"
+thumbnail: "/img/port_bmar.webp"
 type: "Sample Type"
 location: "Sample Location"
 function: "Sample Function"

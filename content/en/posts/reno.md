@@ -4,13 +4,13 @@ draft: false
 title: 'Renovation NC'
 translationKey: "reno"
 cover:
-  image: "/img/port_breno.png"
+  image: "/img/port_breno.webp"
   alt: "cola roundabout in beirut"
   caption: "North Carolina Renovation"
   relative: false 
 tags: ["architecture"]
 categories: ["urban", "architecture", "interior"]
-thumbnail: "/img/port_breno.png"
+thumbnail: "/img/port_breno.webp"
 type: "Sample Type"
 location: "Sample Location"
 function: "Sample Function"
