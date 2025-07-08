@@ -45,7 +45,7 @@
         {{- else if gt (len $colors) 0 -}}
           style="--border-color: {{ index $colors 0 }};"
         {{- end }}>
-        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" width="170" height="170">
         <p>{{ .Title }}</p>
       </a>
       {{ end }}
