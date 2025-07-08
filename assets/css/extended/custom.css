@@ -238,3 +238,30 @@ body.dark .main .post-entry {
     text-decoration: bold;
     color: inherit; /* Inherit color from inline style */
 }
+
+/* Custom styles for tag-entry posts */
+.tag-entry {
+    border: none; /* Remove all borders from .post-entry */
+    border-bottom: 4px solid; /* Set a bottom border, color will be determined by border-image or border-color */
+
+    /* For gradient borders */
+    border-image-source: var(--border-image);
+    border-image-slice: 0 0 1 0; /* Slice only the bottom part (top right bottom left) */
+    border-image-width: 0 0 4px 0; /* Apply width only to bottom */
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-style: solid; /* Ensure border style is solid for border-image to show */
+    border-color: transparent; /* Prevent default border color from showing */
+}
+
+/* For single color borders, override border-image properties */
+.tag-entry[style*="--border-color"] {
+    border-image: none; /* Disable border-image for single colors */
+    border-bottom-color: var(--border-color); /* Set the bottom border color */
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+
+.tag-entry .entry-cover {
+    display: block; /* Show the cover */
+}
