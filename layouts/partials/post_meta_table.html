@@ -1,0 +1,32 @@
+{{ if or .Params.type .Params.location .Params.function .Params.role }}
+<table class="post-meta-table">
+    {{ with .Params.type }}
+    <tr>
+        <td><strong>{{ i18n "type" }}:</strong></td>
+        <td class="spacer"></td>
+        <td>{{ . }}</td>
+    </tr>
+    {{ end }}
+    {{ with .Params.location }}
+    <tr>
+        <td><strong>{{ i18n "location" }}:</strong></td>
+        <td class="spacer"></td>
+        <td>{{ . }}</td>
+    </tr>
+    {{ end }}
+    {{ with .Params.function }}
+    <tr>
+        <td><strong>{{ i18n "function" }}:</strong></td>
+        <td class="spacer"></td>
+        <td>{{ . }}</td>
+    </tr>
+    {{ end }}
+    {{ with .Params.role }}
+    <tr>
+        <td><strong>{{ i18n "role" }}:</strong></td>
+        <td class="spacer"></td>
+        <td>{{ . }}</td>
+    </tr>
+    {{ end }}
+</table>
+{{ end }}

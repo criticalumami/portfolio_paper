@@ -1,4 +1,3 @@
-
 - id: urban
   translation: "Urban"
 - id: architecture
@@ -13,3 +12,11 @@
   translation: "Prev"
 - id: next_page
   translation: "Next"
+- id: type
+  translation: "Type"
+- id: location
+  translation: "Location"
+- id: function
+  translation: "Function"
+- id: role
+  translation: "Role"

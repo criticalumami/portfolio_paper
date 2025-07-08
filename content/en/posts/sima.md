@@ -11,6 +11,10 @@ cover:
 tags: ["architecture"]
 categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bsima.png"
+type: "Sample Type"
+location: "Sample Location"
+function: "Sample Function"
+role: "Sample Role"
 ---
 
 Analytical maps for the rehabilitation of the pedestrian network in the Cola area, central Beirut. The main public transportation hub was studied and transformed into a pedestrian- and soft mobility-friendly zone. 

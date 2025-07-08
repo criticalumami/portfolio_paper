@@ -2,7 +2,7 @@
 date: '2025-04-11T16:08:58+03:00'
 draft: false
 title: 'Pericentral Beirut'
-translationKey: "berg"
+translationKey: "acad"
 cover:
   image: "/img/port_bacad.png"
   alt: "pericentral"
@@ -11,6 +11,10 @@ cover:
 tags: ["architecture"]
 categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bacad.png"
+type: "Sample Type"
+location: "Sample Location"
+function: "Sample Function"
+role: "Sample Role"
 ---
 
 ### On the prospect of reconversion

@@ -10,6 +10,10 @@ cover:
   relative: false
 categories: ["urban", "architecture", "research", "interior"]
 thumbnail: "/img/port_bacad.png"
+type: "نوع العينة"
+location: "موقع العينة"
+function: "وظيفة العينة"
+role: "دور العينة"
 ---
 
 "خسائر اللازمة ومطالبة حدة بل. الآخر الحلفاء أن غزو، إجلاء وتنامت عدد مع. لقهر معركة لبلجيكا، بـ انه، ربع الأثنان المقيتة في، اقتصّت المحور حدة و. هذه ما طرفاً عالمية استسلام، الصين 

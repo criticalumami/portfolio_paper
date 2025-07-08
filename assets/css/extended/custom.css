@@ -260,3 +260,25 @@ body.dark .main .post-entry {
 .page-header h1 {
     font-size: 28px;
 }
+
+.post-meta-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+.post-meta-table td {
+  padding: 0.2em 0;
+}
+
+.post-meta-table td:first-child {
+  width: 30%;
+}
+
+.post-meta-table .spacer {
+  width: 2em;
+}
+
+.logo a {
+    font-size: 1.2rem; /* Adjust this value as needed */
+}

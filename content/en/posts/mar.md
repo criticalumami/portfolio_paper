@@ -11,6 +11,10 @@ cover:
 tags: ["architecture"]
 categories: ["architecture", "interior", "research"]
 thumbnail: "/img/port_bmar.png"
+type: "Sample Type"
+location: "Sample Location"
+function: "Sample Function"
+role: "Sample Role"
 ---
 In the first instance of our reconversion we had decided to reconvene the meeting and throw it back to the second line in command to inspect and attend to the other matters that are more pressing, we thus managed periodically a thorough analysis of the current situation especially after the coming war 
 

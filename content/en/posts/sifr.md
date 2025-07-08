@@ -9,6 +9,10 @@ cover:
   caption: "sift"
   relative: false 
 thumbnail: "/img/port_bjup.png"
+type: "Sample Type"
+location: "Sample Location"
+function: "Sample Function"
+role: "Sample Role"
 categories: ["research", "video"]
 ---
 
