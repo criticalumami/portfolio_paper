@@ -263,5 +263,5 @@ body.dark .main .post-entry {
 }
 
 .tag-entry .entry-cover {
-    display: block; /* Show the cover */
+    display: none;
 }
