@@ -5,12 +5,11 @@
     z-index: 1000; /* Ensure it stays on top */
     background-color: var(--theme); /* Use theme background color */
     border-bottom: 1px solid black; /* Add a thin black line under the navbar */
-    height: 50px; /* Make the header thinner */
 }
 
 /* Adjust main content padding to prevent it from being hidden behind the sticky header */
 .main {
-    padding-top: 40px; /* Adjusted to match the new header height */
+    padding-top: 50px; /* Adjusted to make the header a tad smaller */
 }
 
 /* Font settings */
