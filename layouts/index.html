@@ -3,11 +3,15 @@
   <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
   <p>{{ .Site.Params.homeInfoParams.Content }}</p>
 
-  <div class="category-buttons">
-    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-      <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/"
-         class="category-btn {{ $name | urlize }}">
-        {{ i18n $name }}
+  <div class="category-links">
+    {{ range $i, $category := .Site.Taxonomies.categories.Alphabetical }}
+      {{- $name := $category.Name -}}
+      {{- $categoryColor := index site.Data.category_colors (lower $name) -}}
+      {{- if gt $i 0 -}}
+        &nbsp;&nbsp;
+      {{- end -}}
+      <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/" class="category-link-item {{ $name | urlize }}">
+        <span class="category-link-text">{{ i18n $name }}</span>
       </a>
     {{ end }}
   </div>

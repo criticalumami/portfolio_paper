@@ -165,6 +165,29 @@ body.dark .main .post-entry {
 .category-btn.interior { color: #2cb6b8; }
 .category-btn.research { color: #34495e; }
 
+/* --------- Category Links --------- */
+.category-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+}
+
+.category-link-item {
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none; /* Remove default underline from the anchor tag */
+}
+
+.category-link-item .category-link-text {
+  text-decoration: underline; /* Apply underline only to the text inside the span */
+}
+
+.category-link-item.video { color: #358887; }
+.category-link-item.urban { color: #ee4823; }
+.category-link-item.architecture { color: #f47e22; }
+.category-link-item.interior { color: #abdcdd; } /* Updated from #2cb6b8 to match category_colors.yaml */
+.category-link-item.research { color: #34495e; }
+
 /* --------- Post Entry Border Styles --------- */
 .post-entry {
     border: 4px solid var(--border-color, transparent);

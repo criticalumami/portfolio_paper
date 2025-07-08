@@ -48,7 +48,7 @@ languages:
       main:
         - identifier: blog
           name: Works
-          url: /posts/
+          url: /
           weight: 1    
         - identifier: about
           name: About
@@ -76,7 +76,7 @@ languages:
       main:
         - identifier: blog
           name: اعمال
-          url: /posts/
+          url: /
           weight: 1
         - identifier: about
           name: من انا
