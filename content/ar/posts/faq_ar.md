@@ -11,7 +11,7 @@ cover:
   caption: "faq"
   relative: false 
 tags: ["architecture"]
-categories: [""interior"]
+categories: ["interior"]
 thumbnail: "/img/port_bfaq.png"
 type: "نوع العينة"
 location: "موقع العينة"
