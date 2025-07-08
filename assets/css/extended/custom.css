@@ -1,3 +1,16 @@
+/* Header */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top */
+    background-color: var(--theme); /* Use theme background color */
+}
+
+/* Adjust main content padding to prevent it from being hidden behind the sticky header */
+.main {
+    padding-top: 50px; /* Adjusted to make the header a tad smaller */
+}
+
 /* Font settings */
 body, html {
     font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
@@ -123,11 +136,15 @@ body.dark .main .post-entry {
     margin-top: 0.5rem;
     font-size: 1.1rem;
 }
-.gallery-grid p {
+.gallery-grid > p {
     margin-bottom: 0.5rem;
+    margin-top: 1rem; /* Added margin to lower the paragraph */
+}
+.gallery-grid > p {
+    margin-top: 5rem; /* Added margin to lower the paragraph */
 }
 .gallery-grid h1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0; /* Adjusted to remove space below title */
 }
 
 
@@ -137,8 +154,6 @@ body.dark .main .post-entry {
   flex-wrap: wrap;
   margin-bottom: 1rem;
   margin-top: 5rem;
-  justify-content:center;
-  align-items: center;
   font-size: 1.1em;
 }
 
@@ -268,4 +283,19 @@ body.dark .main .post-entry {
 
 .logo a {
     font-size: 1.2rem; /* Adjust this value as needed */
+}
+
+/* Category Squares */
+.category-squares {
+    display: flex;
+    /* Removed gap to make them connect */
+    margin-top: 0.2rem; /* Adjusted to remove space above squares */
+    justify-content: flex-start; /* Align squares to the left */
+    align-items: center;
+}
+
+.category-square {
+    width: 10px;
+    height: 10px;
+    /* Removed border-radius for solid corners */
 }

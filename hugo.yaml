@@ -14,7 +14,13 @@ params:
   showImage: true
   description: "You've probably ended here by scanning the QR code or clicking on the link of my 'work samples' document. This is where I keep the archive and showcase some web development"
   favicon: "/favicon.ico"
-featuredImage: "img/port_bsima.webp"
+  featuredImage: "img/port_bsima.webp"
+  homepageCategoriesOrder:
+    - "urban"
+    - "architecture"
+    - "interior"
+    - "video"
+    - "research"
 
 
 markup:

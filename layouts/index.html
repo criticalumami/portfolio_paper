@@ -1,18 +1,28 @@
 {{ define "main" }}
 <main class="gallery-grid">
   <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
+  <div class="category-squares">
+    {{ range $categoryName := .Site.Params.homepageCategoriesOrder }}
+      {{- $categoryColor := index site.Data.category_colors (lower $categoryName) -}}
+      {{- if $categoryColor -}}
+        <span class="category-square" style="background-color: {{ $categoryColor }};"></span>
+      {{- end -}}
+    {{ end }}
+  </div>
   <p>{{ .Site.Params.homeInfoParams.Content }}</p>
 
   <div class="category-links">
-    {{ range $i, $category := .Site.Taxonomies.categories.Alphabetical }}
-      {{- $name := $category.Name -}}
-      {{- $categoryColor := index site.Data.category_colors (lower $name) -}}
-      {{- if gt $i 0 -}}
-        &nbsp;&nbsp;
+    {{ range $i, $categoryName := .Site.Params.homepageCategoriesOrder }}
+      {{- $category := $.Site.GetPage (printf "categories/%s" $categoryName) -}}
+      {{- if $category -}}
+        {{- $categoryColor := index site.Data.category_colors (lower $categoryName) -}}
+        {{- if gt $i 0 -}}
+          &nbsp;&nbsp;
+        {{- end -}}
+        <a href="{{ $category.RelPermalink }}" class="category-link-item {{ $categoryName | urlize }}">
+          <span class="category-link-text">{{ i18n $categoryName }}</span>
+        </a>
       {{- end -}}
-      <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/" class="category-link-item {{ $name | urlize }}">
-        <span class="category-link-text">{{ i18n $name }}</span>
-      </a>
     {{ end }}
   </div>
 
