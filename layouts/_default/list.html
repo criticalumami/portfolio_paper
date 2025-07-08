@@ -98,7 +98,7 @@
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
     {{- if .Params.thumbnail }}
-    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="post-thumbnail">
+    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="post-thumbnail" loading="lazy">
     {{- end }}
     <h2 class="entry-hint-parent">
       {{- .Title }}

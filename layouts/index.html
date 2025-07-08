@@ -17,7 +17,7 @@
   </div>
 
   <div class="grid">
-    {{ range .Site.RegularPages }}
+    {{ range first 10 .Site.RegularPages }}
       {{ if and .Params.thumbnail (gt (len .Params.thumbnail) 0) }}
       {{- $colors := slice -}}
       {{- with .Params.categories -}}
@@ -45,7 +45,7 @@
         {{- else if gt (len $colors) 0 -}}
           style="--border-color: {{ index $colors 0 }};"
         {{- end }}>
-        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" width="170" height="170">
+        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" width="170" height="170" loading="lazy">
         <p>{{ .Title }}</p>
       </a>
       {{ end }}
