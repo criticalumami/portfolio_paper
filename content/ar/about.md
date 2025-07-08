@@ -1,6 +1,6 @@
 <div class="about-links">
 
-![me](/img/ab.png)
+![me](/img/mez.gif)
 
 **[السيرة](/img/resume.pdf)**
 
