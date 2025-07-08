@@ -14,7 +14,7 @@
 
 /* Font settings */
 body, html {
-    font-family: 'Courier Prime', 'Courier New', Courier, monospace !important;
+    font-family: 'Courier New', Courier, monospace !important;
     font-size: 0.9rem;
 }
 
@@ -24,10 +24,7 @@ body:not(.dark) .main {
     background: #fff !important;
 }
 
-/* Hide footer */
-footer {
-    display: none !important;
-}
+
 
 /* Dark theme backgrounds and text */
 body.dark {
@@ -284,14 +281,19 @@ body.dark .main .post-entry {
 
 .post-meta-table td {
   padding: 0.2em 0;
+  vertical-align: top;
 }
 
 .post-meta-table td:first-child {
   width: 30%;
 }
 
+.post-meta-table td:nth-child(3) {
+  font-weight: normal;
+}
+
 .post-meta-table .spacer {
-  width: 2em;
+  width: 0.5em;
 }
 
 .logo a {

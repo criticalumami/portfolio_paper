@@ -20,3 +20,5 @@
   translation: "Function"
 - id: role
   translation: "Role"
+- id: footer_text
+  translation: "Do not falter or grieve"
