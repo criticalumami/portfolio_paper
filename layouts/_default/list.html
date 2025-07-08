@@ -75,7 +75,7 @@
 {{- $colors := slice -}}
 {{- with .Params.categories -}}
   {{- range . -}}
-    {{- $color := index site.Data.category_colors . -}}
+    {{- $color := index site.Data.category_colors (lower .) -}}
     {{- if $color -}}
       {{- $colors = $colors | append $color -}}
     {{- end -}}

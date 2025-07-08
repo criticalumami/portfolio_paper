@@ -1,10 +1,10 @@
 ---
 translationKey: "about"
-cover:
-    image: "/img/ab.webp"
 ---
 
 <div class="about-links">
+
+![me](/img/ab.webp)
 
 **[Resume](/img/resume.pdf)**
 

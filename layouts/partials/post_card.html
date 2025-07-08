@@ -19,7 +19,7 @@
     {{- end -}}
     style="--border-image: linear-gradient(to right, {{ delimit $stops ", " }});"
   {{- else if gt (len $colors) 0 -}}
-    style="--border-color: {{ index $colors 0 }};"
+    style="--border-color: {{ index $colors 0 }}; border-image: none;"
   {{- end }} href="{{ .RelPermalink }}">
     {{ with .Params.cover.image }}
       <img src="{{ . }}" alt="{{ $.Title }}">

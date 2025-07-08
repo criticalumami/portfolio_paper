@@ -9,7 +9,7 @@ cover:
   caption: "garden housing"
   relative: false 
 tags: ["architecture"]
-categories: ["architecture"]
+categories: ["urban", "architecture"]
 thumbnail: "/img/port_burb.webp"
 type: "نوع العينة"
 location: "موقع العينة"

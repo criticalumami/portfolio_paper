@@ -4,11 +4,13 @@
     top: 0;
     z-index: 1000; /* Ensure it stays on top */
     background-color: var(--theme); /* Use theme background color */
+    border-bottom: 1px solid black; /* Add a thin black line under the navbar */
+    height: 50px; /* Make the header thinner */
 }
 
 /* Adjust main content padding to prevent it from being hidden behind the sticky header */
 .main {
-    padding-top: 50px; /* Adjusted to make the header a tad smaller */
+    padding-top: 40px; /* Adjusted to match the new header height */
 }
 
 /* Font settings */
@@ -245,6 +247,14 @@ body.dark .main .post-entry {
     border-bottom-color: var(--border-color); /* Set the bottom border color */
     border-bottom-style: solid;
     border-bottom-width: 4px;
+}
+
+/* Ensure single-category grid items have a 3px solid border and no border-image */
+.grid-item[style*="--border-color"] {
+    border-image: none !important;
+    border-bottom-width: 3px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: var(--border-color) !important;
 }
 
 .tag-entry .entry-cover {
