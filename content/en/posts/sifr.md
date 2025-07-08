@@ -4,11 +4,11 @@ draft: false
 title: 'Videography'
 translationKey: "sift"
 cover:
-  image: "/img/jup.gif"
+  image: "/img/jup_v.gif"
   alt: "cola roundabout in beirut"
   caption: "sift"
   relative: false 
-thumbnail: "/img/jup.gif"
+thumbnail: "/img/jup_v.gif"
 categories: ["video"]
 ---
 
