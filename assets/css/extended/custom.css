@@ -314,3 +314,17 @@ body.dark .main .post-entry {
     height: 10px;
     /* Removed border-radius for solid corners */
 }
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    color: #555;
+}
+
+body.dark .footer {
+    border-top: 1px solid #333;
+    color: #aaa;
+}
