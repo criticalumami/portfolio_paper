@@ -8,6 +8,8 @@ translationKey: "about"
 
 **[Resume](/img/resume.pdf)**
 
+**[Portfolio](/img/port.pdf)**
+
 **[Contact](mailto:jbeili.amer@gmail.com)**
 
 </div>

@@ -8,6 +8,8 @@ translationKey: "about"
 
 **[السيرة](/img/resume.pdf)**
 
+**[عيّنات](/img/port.pdf)**
+
 **[التواصل](mailto:jbeili.amer@gmail.com)**
 
 </div>
