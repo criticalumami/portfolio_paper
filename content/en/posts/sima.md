@@ -19,6 +19,8 @@ role: "Sample Role"
 
 Analytical maps for the rehabilitation of the pedestrian network in the Cola area, central Beirut. The main public transportation hub was studied and transformed into a pedestrian- and soft mobility-friendly zone. 
 
+![st](/img/st.webp)
+
 How could I ignore this encroachment, when I have for decades witnessed the calculated planning advancing upon my nation and homeland from every direction, achieving all—or at least some—of what it wants, day after day and year after year? That is why I have never picked up the pen without firmly believing I carry a responsibility: either I fulfill it properly, or I crush this pen beneath my feet without regret for it or for myself.
 
 <br>
