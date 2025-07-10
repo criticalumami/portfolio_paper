@@ -8,7 +8,6 @@ cover:
   alt: "cola roundabout in beirut"
   caption: "S07 - Cola Roundabout"
   relative: false 
-tags: ["architecture"]
 categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bsima.webp"
 type: "posts"
@@ -20,9 +19,23 @@ rank: 10
 
 Analytical maps for the rehabilitation of the pedestrian network in the Cola area, central Beirut. The main public transportation hub was studied and transformed into a pedestrian- and soft mobility-friendly zone. 
 
-![st](/img/st.webp)
+![st](/img/yf_sat.webp)
+
+![st](/img/yf.webp)
+
+![st](/img/cr_sat.webp)
+
+![st](/img/cr.webp)
 
 How could I ignore this encroachment, when I have for decades witnessed the calculated planning advancing upon my nation and homeland from every direction, achieving all—or at least some—of what it wants, day after day and year after year? That is why I have never picked up the pen without firmly believing I carry a responsibility: either I fulfill it properly, or I crush this pen beneath my feet without regret for it or for myself.
+
+
+
+<br>
+<iframe src="https://sima-yf.netlify.app" width="100%" height="500" style="border: none;"></iframe>
+<br>
+
+<a href="https://sima-yf.netlify.app" target="_blank">Open Yerevan Flyover Map in a new window.</a>
 
 <br>
 <iframe src="https://sima-cr.netlify.app" width="100%" height="500" style="border: none;"></iframe>
@@ -34,11 +47,7 @@ Analytical maps for the rehabilitation of the pedestrian network in the Cola are
 
 How could I ignore this encroachment, when I have for decades witnessed the calculated planning advancing upon my nation and homeland from every direction, achieving all—or at least some—of what it wants, day after day and year after year? That is why I have never picked up the pen without firmly believing I carry a responsibility: either I fulfill it properly, or I crush this pen beneath my feet without regret for it or for myself.
 
-<br>
-<iframe src="https://sima-yf.netlify.app" width="100%" height="500" style="border: none;"></iframe>
-<br>
 
-<a href="https://sima-yf.netlify.app" target="_blank">Open Yerevan Flyover Map in a new window.</a>
 
 This transformation addresses not only infrastructure but also the cultural and social implications of reclaiming public space. By enhancing pedestrian access and comfort, these interventions encourage community interaction, reduce traffic congestion, and foster sustainable mobility for future generations.
 
