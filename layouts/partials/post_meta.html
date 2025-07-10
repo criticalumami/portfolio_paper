@@ -8,7 +8,9 @@
     {{- $translatedCategory := i18n $categoryName -}}
     {{- $style := "" -}}
     {{- if $categoryColor -}}
-      {{- $style = printf "style=\"color: %s;\"" $categoryColor -}}
+      {{- $style = printf "style=\"color: %s; text-decoration: underline;\"" $categoryColor -}}
+    {{- else -}}
+      {{- $style = "style=\"text-decoration: underline;\"" -}}
     {{- end -}}
     {{- $categoryLinks = $categoryLinks | append (printf "<a href=\"%s\" %s><strong>%s</strong></a>" (absLangURL (printf "categories/%s" ($categoryName | urlize))) $style $translatedCategory) -}}
   {{- end -}}

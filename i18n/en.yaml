@@ -12,13 +12,13 @@
   translation: "Prev"
 - id: next_page
   translation: "Next"
-- id: type
-  translation: "Type"
 - id: location
   translation: "Location"
 - id: function
   translation: "Function"
 - id: role
   translation: "Role"
+- id: year
+  translation: "Year"
 - id: footer_text
   translation: "Falter not nor grieve"

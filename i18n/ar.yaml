@@ -12,13 +12,13 @@
   translation: "السابق"
 - id: next_page
   translation: "التالي"
-- id: type
-  translation: "نوع"
 - id: location
   translation: "موقع"
 - id: function
   translation: "وظيفة"
 - id: role
   translation: "دور"
+- id: year
+  translation: "سنة"
 - id: footer_text
   translation: "ولا تهنوا ولا تحزنوا"
