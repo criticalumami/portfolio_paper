@@ -1,5 +1,5 @@
 ---
-date: '2025-04-11T16:08:58+03:00'
+date: '2025-07-09T16:08:58+03:00'
 draft: false
 title: 'Pedestrian Networks'
 translationKey: "sima"
@@ -11,10 +11,11 @@ cover:
 tags: ["architecture"]
 categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bsima.webp"
-type: "Sample Type"
+type: "posts"
 location: "Sample Location"
 function: "Sample Function"
 role: "Sample Role"
+rank: 10
 ---
 
 Analytical maps for the rehabilitation of the pedestrian network in the Cola area, central Beirut. The main public transportation hub was studied and transformed into a pedestrian- and soft mobility-friendly zone. 

@@ -1,5 +1,5 @@
 ---
-date: '2025-04-11T16:08:58+03:00'
+date: '2025-05-11T16:08:58+03:00'
 draft: false
 title: 'Videography'
 translationKey: "sift"
@@ -9,11 +9,12 @@ cover:
   caption: "sift"
   relative: false 
 thumbnail: "/img/port_bjup.webp"
-type: "Sample Type"
+type: "posts"
 location: "Sample Location"
 function: "Sample Function"
 role: "Sample Role"
 categories: ["research", "video"]
+rank: 5
 ---
 
 This study aims to analyze academic curricula in the field of architecture and urban planning in Global South countries, with a focus on educational practices in Lebanon and the Levant region. The study addresses the problematic of the impact of imported academic models on shaping the architectural and urban consciousness of students, and questions the extent to which these curricula are suitable for local contexts and the urban challenges specific to the region.

@@ -10,10 +10,11 @@ cover:
   relative: false 
 categories: ["interior"]
 thumbnail: "/img/port_bfaq.png"
-type: "Sample Type"
+type: "posts"
 location: "Sample Location"
 function: "Sample Function"
 role: "Sample Role"
+rank: 5
 ---
 In the first instance of our reconversion we had decided to reconvene the meeting and throw it back to the second line in command to inspect and attend to the other matters that are more pressing, we thus managed periodically a thorough analysis of the current situation especially after the coming war 
 

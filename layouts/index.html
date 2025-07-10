@@ -27,7 +27,7 @@
   </div>
 
   <div class="grid">
-    {{ range first 10 .Site.RegularPages }}
+    {{ range first 10 ((where .Site.RegularPages "Type" "posts").ByParam "rank").Reverse }}
       {{ if and .Params.thumbnail (gt (len .Params.thumbnail) 0) }}
       {{- $colors := slice -}}
       {{- with .Params.categories -}}

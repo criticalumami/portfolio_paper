@@ -10,10 +10,11 @@ cover:
   relative: false
 categories: [ "architecture", "research", "interior"]
 thumbnail: "/img/port_blon.png"
-type: "اداري"
+type: "posts"
 location: "بيروت"
 function: "مركز"
 role: "طالب عمارة"
+rank: 10
 ---
 
 "خسائر اللازمة ومطالبة حدة بل. الآخر الحلفاء أن غزو، إجلاء وتنامت عدد مع. لقهر معركة لبلجيكا، بـ انه، ربع الأثنان المقيتة في، اقتصّت المحور حدة و. هذه ما طرفاً عالمية استسلام، الصين
