@@ -17,15 +17,19 @@ role: "Sample Role"
 rank: 10
 ---
 
-Analytical maps for the rehabilitation of the pedestrian network in the Cola area, central Beirut. The main public transportation hub was studied and transformed into a pedestrian- and soft mobility-friendly zone. 
+Analytical maps for the rehabilitation of the pedestrian network in the Cola area, central Beirut. The main public transportation hub was studied and transformed into a pedestrian- and soft mobility-friendly zone.
 
-![st](/img/yf_sat.webp)
+![yf](/img/yf_sat.webp)
 
-![st](/img/yf.webp)
+![yf](/img/yf.webp)
 
-![st](/img/cr_sat.webp)
+![cr](/img/cr_sat.webp)
 
-![st](/img/cr.webp)
+![cr](/img/cr.webp)
+
+![al](/img/br.webp)
+
+![al](/img/br2.webp)
 
 How could I ignore this encroachment, when I have for decades witnessed the calculated planning advancing upon my nation and homeland from every direction, achieving all—or at least some—of what it wants, day after day and year after year? That is why I have never picked up the pen without firmly believing I carry a responsibility: either I fulfill it properly, or I crush this pen beneath my feet without regret for it or for myself.
 
