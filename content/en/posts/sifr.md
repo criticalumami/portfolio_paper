@@ -28,4 +28,4 @@ Identify the beneficiaries of controlling these curricula
 Identify the dominant factors that restrict patterns of academic research in Lebanon and the Levant in general
 
 
-![jup](/img/jup_v.gif)
+![jup](/img/jup_v.gif)#center
