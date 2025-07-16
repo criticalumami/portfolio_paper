@@ -20,8 +20,6 @@ year: 2024
 
 ### Overview & Beginnings
 
-![sim](/img/sim.png)
-
 The **Sustainable Integrated Municipal Action (SIMA)** project, launched by [UNOPS](https://lebanon.un.org/en/227264-unops-launches-two-call-proposals-lebanon), aims to support Lebanese regional authorities—namely municipalities—by providing funding and management assistance for various sustainable initiatives across the country.
 
 I was contacted by the urban planning team working with UNOPS to contribute to the architectural and urban strategy consultancy under the SIMA **Street Network** subproject.
