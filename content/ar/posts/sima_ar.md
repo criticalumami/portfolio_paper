@@ -2,6 +2,7 @@
 date: '2025-07-09T16:08:58+03:00'
 draft: false
 title: 'شبكات المشاة'
+featured: true
 translationKey: "sima"
 cover:
   image: "/img/port_bsima.webp"

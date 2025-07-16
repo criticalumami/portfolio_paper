@@ -22,3 +22,5 @@
   translation: "Year"
 - id: footer_text
   translation: "Falter not nor grieve"
+- id: featured_project
+  translation: "Featured Project"

@@ -55,6 +55,7 @@
         {{- else if gt (len $colors) 0 -}}
           style="--border-color: {{ index $colors 0 }};"
         {{- end }}>
+        {{ if .Params.featured }}<span class="featured-tag">{{ i18n "featured_project" }}</span>{{ end }}
         <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" width="170" height="170" loading="lazy">
         <p>{{ .Title }}</p>
       </a>

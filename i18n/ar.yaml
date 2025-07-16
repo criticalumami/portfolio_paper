@@ -22,3 +22,5 @@
   translation: "سنة"
 - id: footer_text
   translation: "ولا تهنوا ولا تحزنوا"
+- id: featured_project
+  translation: "مشروع مميز"
