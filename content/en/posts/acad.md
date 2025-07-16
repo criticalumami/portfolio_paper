@@ -8,7 +8,6 @@ cover:
   alt: "pericentral"
   caption: "maps"
   relative: false 
-tags: ["architecture"]
 categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bacad.webp"
 type: "posts"

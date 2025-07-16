@@ -17,41 +17,65 @@ role: "Urban Planning & Architecture Consultant"
 rank: 200
 year: 2024
 ---
+
 ### Overview & Beginnings
 
-The Sustainable Integrated Municipal Action (SIMA) project launched by [UNOPS](https://lebanon.un.org/en/227264-unops-launches-two-call-proposals-lebanon) aims to facilitate the work of Lebanese regional authorities i.e municipalities in providing project funding and management to several sustainable projects on the national soil.
+![sim](/img/sim.png)
 
-I was contact by the urban planning team working with UNOPS to contribute to the architectural and urban strategy consulting effort under the banner of the SIMA - Street Network subproject.
+The **Sustainable Integrated Municipal Action (SIMA)** project, launched by [UNOPS](https://lebanon.un.org/en/227264-unops-launches-two-call-proposals-lebanon), aims to support Lebanese regional authorities—namely municipalities—by providing funding and management assistance for various sustainable initiatives across the country.
 
-The aim of the endeavor was to reorganize pedestrian accessibility within the boundaries of the city of Beirut and its suburbs. The project management team at UNOPS presented to us 7 sectors of interest that ought to be studied and reconnected namely:
+I was contacted by the urban planning team working with UNOPS to contribute to the architectural and urban strategy consultancy under the SIMA **Street Network** subproject.
 
-- S01 - Yerevan Flyover BH 
-- S02 - Souk Trail BH
-- S03 - Railway Walk BH
-- S04 - Geitawi Neighborhood
-- S05 - Beirut Corniche
-- S06 -  Damascus Road
-- S07 - Cola Roundabout
+The objective of this effort was to reorganize and improve pedestrian accessibility within Beirut and its surrounding suburbs. The UNOPS project management team identified seven key sectors requiring study and reconnection:
 
-Pedestrian infrastructure and soft mobility networks were to be reorganized with the aim of giving access to mobility to those who are left on the margins of car-centric policy.
+- **S01** — Yerevan Flyover, Bourj Hammoud
+- **S02** — Souk Trail, Bourj Hammoud
+- **S03** — Railway Walk, Bourj Hammoud
+- **S04** — Geitawi Neighborhood
+- **S05** — Beirut Corniche
+- **S06** — Damascus Road
+- **S07** — Cola Roundabout
+
+The overarching goal was to reorganize pedestrian infrastructure and soft mobility networks to ensure accessible mobility for communities often excluded by car-centric urban policies.
+
+---
+
 ### Data Collection
 
-The major issue with data collection in our geographies resided in the lack of publicly available datasets that are moderated and maintained by local authorities, most of our informations are sourced from private institutions (often higher education) and international non-governmental organizations.
+A significant challenge in our context is the lack of publicly available datasets that are actively maintained by local authorities. Much of our information comes from private institutions (primarily academic) and international non-governmental organizations.
 
-After a thorough review of previously published projects and literature on soft-mobility in Beirut we surveyed the sites and cross-referenced our findings with two major datasets, the first one from the [Beirut Urban Lab at the American University of Beirut](https://beiruturbanlab.com/) and the second from the [Neighborhood Project dataset from UN Habitat](https://lebanonportal.unhabitat.org). This resulted in the first cartography production that lays bare the current situation on the ground.
+After conducting an extensive review of previous projects and literature on soft mobility in Beirut, we surveyed the identified sites and cross-referenced our findings with two major datasets: the [Beirut Urban Lab at the American University of Beirut](https://beiruturbanlab.com/) and the [Neighborhood Project dataset from UN-Habitat](https://lebanonportal.unhabitat.org). This enabled us to develop our initial cartographic outputs, providing a clear representation of current on-the-ground conditions.
 
-Here is a cartography sample from [S05 - Beirut Corniche](/img/sima_1_bc.pdf).
+Additionally, we carried out detailed topographical surveys of all seven sectors and captured 360-degree video footage of the entire street network.
 
-### Design Brief & Problematic
+You can view an example of this cartography here: [S05 — Beirut Corniche](/img/sima_1_bc.pdf).
 
+---
+
+### Design Brief & Key Challenges
+
+Following an in-depth site analysis and a comprehensive review of existing studies and projects related to soft mobility in Beirut and its suburbs, we identified several core challenges hindering pedestrian mobility in the city. To address these, we adopted a three-pronged approach:
+
+- **Hardscape Interventions**
+- **Tactical Urban Interventions**
+- **Administrative & Operational Measures**
+
+Securing adequate funding was a major hurdle throughout this process. Our goal was to maximize impact with limited resources to reinvigorate Beirut’s pedestrian infrastructure.
+
+---
 
 ### Concept Design
 
-![sim2](/img/sim2.png)
+At this stage, our ideas began to take shape. We mapped potential suppliers for essential materials and developed preliminary strategies for implementation.
+
+---
 
 ### Detailed Design
 
+The detailed design phase focused on producing precise technical drawings and specifications for key urban elements, such as benches and other street furniture, to guide procurement and installation.
+
+---
+
 ### Moving Forward
 
-
-
+The next steps will involve refining these designs, securing additional funding, and coordinating with stakeholders to ensure the sustainable implementation and maintenance of the proposed pedestrian network improvements.
