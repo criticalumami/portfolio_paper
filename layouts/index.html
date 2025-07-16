@@ -38,7 +38,7 @@
           {{- end -}}
         {{- end -}}
       {{- end -}}
-      <a href="{{ .RelPermalink }}" class="grid-item"
+      <a href="{{ .RelPermalink }}" class="grid-item{{ if .Params.featured }} featured{{ end }}"
         {{- if gt (len $colors) 1 -}}
           {{- $n := len $colors -}}
           {{- $stops := slice -}}

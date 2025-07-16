@@ -332,3 +332,8 @@ body.dark .footer {
 a {
     cursor: pointer;
 }
+
+.grid-item.featured {
+    grid-column: span 2;
+    grid-row: span 2;
+}
