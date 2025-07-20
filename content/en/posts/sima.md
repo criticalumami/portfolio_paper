@@ -49,6 +49,8 @@ Additionally, we carried out detailed topographical surveys of all seven sectors
 
 You can view an example of this cartography here: [S05 — Beirut Corniche](/img/sima_1_bc.pdf).
 
+![yf](/img/yf_sat.webp "YF")
+
 ---
 
 ### Design Brief & Key Challenges
@@ -59,7 +61,12 @@ Following an in-depth site analysis and a comprehensive review of existing studi
 - **Tactical Urban Interventions**
 - **Administrative & Operational Measures**
 
+!["SIM"](/img/port_bsima.webp "SIM")
+!["SIM"](/img/port_bsima_2.webp "SIM")
+
 Securing adequate funding was a major hurdle throughout this process. Our goal was to maximize impact with limited resources to reinvigorate Beirut’s pedestrian infrastructure.
+
+![yf](/img/yf.webp "YF")
 
 ---
 
@@ -67,11 +74,14 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 
 At this stage, our ideas began to take shape. We mapped potential suppliers for essential materials and developed preliminary strategies for implementation.
 
+!["SIM"](/img/sim2.png "SIM")
 ---
 
 ### Detailed Design
 
 The detailed design phase focused on producing precise technical drawings and specifications for key urban elements, such as benches and other street furniture, to guide procurement and installation.
+
+<iframe class="map-iframe" src="https://sima-yf.netlify.app" title="Yerevan Flyover"></iframe>
 
 ---
 

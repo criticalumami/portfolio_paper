@@ -1,10 +1,9 @@
 ---
 translationKey: "about"
+hideMeta: true
 ---
 
 <div class="about-links">
-
-![me](/img/ab.webp)
 
 **[Resume](/img/resume.pdf)**
 

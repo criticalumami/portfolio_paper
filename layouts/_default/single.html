@@ -28,7 +28,9 @@
     </div>
     {{- end }}
   </header>
+  {{- if ne .Params.translationKey "about" -}}
   {{- partial "post_meta_table.html" . -}}
+  {{- end -}}
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
   {{- if (.Param "ShowToc") }}

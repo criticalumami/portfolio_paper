@@ -353,3 +353,36 @@ a {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+.post-content .entry-cover figcaption {
+    font-size: 14px; /* Matches .entry-cover font-size */
+    color: var(--secondary); /* Common text color for meta info */
+    text-align: center; /* Ensures it's centered like the cover */
+    margin-top: 0.5rem; /* Adjust as needed for spacing */
+    margin-bottom: var(--gap); /* Matches .entry-cover margin-bottom */
+    font-weight: normal; /* Reset font-weight if it's bold elsewhere */
+}
+
+.post-content .entry-cover figcaption {
+    font-size: 14px; /* Matches .entry-cover font-size */
+    color: var(--secondary); /* Common text color for meta info */
+    text-align: center; /* Ensures it's centered like the cover */
+    margin-top: 0.5rem; /* Adjust as needed for spacing */
+    margin-bottom: var(--gap); /* Matches .entry-cover margin-bottom */
+    font-weight: normal; /* Reset font-weight if it's bold elsewhere */
+}
+
+.post-content img + em {
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 0.5rem;
+}
+
+/* Custom styles for map iframe */
+.map-iframe {
+    border: none;
+    height: 500px;
+    width: 100%;
+}
