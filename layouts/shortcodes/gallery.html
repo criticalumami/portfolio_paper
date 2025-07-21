@@ -1,0 +1,15 @@
+<div class="gallery" style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 10px;">
+    {{ $items := .Params }}
+    {{ range $i, $e := $items }}
+        {{ if eq (mod $i 2) 1 }}
+            {{ $src := index $items (sub $i 1) }}
+            {{ $caption := $e }}
+            <figure style="flex: 1 1 auto; max-width: 30%; height: auto; margin: 0;">
+                <a href="{{ $src | relURL }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ $src | relURL }}" alt="{{ $caption }}" style="width: 100%; height: auto;">
+                </a>
+                <figcaption style="text-align: center; font-size: 0.9em; color: #6c757d;">{{ $caption }}</figcaption>
+            </figure>
+        {{ end }}
+    {{ end }}
+</div>

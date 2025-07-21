@@ -1,5 +1,11 @@
 <figure class="entry-cover">
-    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+    {{ if eq .Page.Section "posts" }}
+        <a href="{{ .Destination | safeURL }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+        </a>
+    {{ else }}
+        <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+    {{ end }}
     {{- with .Title -}}
     <figcaption>{{ . | markdownify }}</figcaption>
     {{- end -}}
