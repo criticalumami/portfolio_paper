@@ -1,9 +1,9 @@
-baseURL: "https://karlmaps.netlify.app"
+baseURL: "https://amerjbeili.netlify.app"
 languageCode: "en-us"
 theme: ["PaperMod"]
 environments:
   production:
-    baseURL: "https://karlmaps.netlify.app"
+    baseURL: "https://amerjbeili.netlify.app"
   development:
     baseURL: "http://localhost:1313"
 
