@@ -12,7 +12,7 @@ params:
   customCSS: ["css/custom.css"]
   defaultTheme: auto
   showImage: true
-  description: "You've probably ended here by scanning the QR code or clicking on the link of my 'work samples' document. This is where I keep the archive and showcase some web development"
+  description: "I am an architect with a penchant for modernism, however over the years I've found myself diving into geographical information systems and general spatial information storage and representation. This site is where I keep the archive and showcase some web development, urban plannin, architecture, GIS and cartography related work."
   favicon: "/favicon.ico"
   featuredImage: "img/port_bjup.webp"
   homepageCategoriesOrder:
@@ -46,7 +46,7 @@ languages:
       mainSections: ["posts"]
       view: "card"
       homeInfoParams:
-        Content: "I've been academically formed as an architect however over the years I've found myself diving into geographical information systems and general spatial information storage and representation. This is where I keep the archive and showcase some web development, urban plannin, architecture, GIS and cartography related work."
+        Content: "I am an architect with a penchant for modernism, however over the years I've found myself diving into geographical information systems and general spatial information storage and representation. This site is where I keep the archive and showcase some web development, urban plannin, architecture, GIS and cartography related work."
         Title: "Work Samples"
       ShowLanguageSwitcher: true  
     title: "Amer Jbeili"
@@ -74,7 +74,7 @@ languages:
       mainSections: ["posts"]
       view: "card"
       homeInfoParams:
-        Content: "لقد تشكلت أكاديمياً كمهندس معماري، ومع ذلك، على مر السنين وجدت نفسي أتعمق في نظم المعلومات الجغرافية وتخزين وتمثيل المعلومات المكانية العامة. هذا هو المكان الذي أحتفظ فيه بالأرشيف وأعرض بعض أعمال تطوير الويب، والتخطيط الحضري، والهندسة المعمارية، ونظم المعلومات الجغرافية، والأعمال المتعلقة بالخرائط."
+        Content: "أنا مهندس معماري ذو ميل للحداثة، ومع ذلك، على مر السنين وجدت نفسي أتعمق في نظم المعلومات الجغرافية والتخزين العام للمعلومات المكانية وتمثيلها. هذا الموقع هو المكان الذي أحتفظ فيه بالأرشيف وأعرض بعض أعمال تطوير الويب، والتخطيط الحضري، والهندسة المعمارية، ونظم المعلومات الجغرافية، والأعمال المتعلقة بالخرائط."
         Title: "نماذج أعمال"
       ShowLanguageSwitcher: true
     title: "عامر الجبيلي"
