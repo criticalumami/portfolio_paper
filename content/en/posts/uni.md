@@ -25,6 +25,8 @@ This is also why we weren't able to reconsider previous chapters of the current 
 
 Regarding the submission of previously presented documents we adopted a two-fold approach to the problematic we first envisaged the structure of the current state of events followed by a reconsideration of our previous assesment in the non-sensical.
 
+<iframe src="https://portostap.netlify.app/#ss" width="100%" height="480" style="border:none; filter: grayscale(100%)"></iframe>
+
 For these matters to be reassesed we were facing major political obstacles within the dynamics of our close-knit group e nwant to emphasis the importance of the bionese approach to group politics, this first goes hand in hand with the reconsideration of the whole environement previously layed bare by our dynmics and our
 
 ![jup](/img/single.gif)
