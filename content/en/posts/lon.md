@@ -4,12 +4,12 @@ draft: false
 title: 'Municipal Center'
 translationKey: "lon"
 cover:
-  image: "/img/port_blon.png"
+  image: "/img/port_blon.webp"
   alt: "long"
   caption: "housing"
   relative: false 
 categories: ["architecture", "interior", "research"]
-thumbnail: "/img/port_blon.png"
+thumbnail: "/img/port_blon.webp"
 type: "posts"
 location: "Beirut LB"
 function: "Communal Center"

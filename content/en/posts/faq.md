@@ -4,12 +4,12 @@ draft: false
 title: 'Faqra Interior'
 translationKey: "faq"
 cover:
-  image: "/img/port_bfaq.png"
+  image: "/img/port_bfaq.webp"
   alt: "pericentral"
   caption: "maps"
   relative: false 
 categories: ["interior"]
-thumbnail: "/img/port_bfaq.png"
+thumbnail: "/img/port_bfaq.webp"
 type: "posts"
 location: "Sample Location"
 function: "Sample Function"

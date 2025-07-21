@@ -4,12 +4,12 @@ draft: false
 title: 'المركز الاجتماعي'
 translationKey: "lon"
 cover:
-  image: "/img/port_blon.png"
+  image: "/img/port_blon.webp"
   alt: "pericentral"
   caption: "maps"
   relative: false
 categories: [ "architecture", "research", "interior"]
-thumbnail: "/img/port_blon.png"
+thumbnail: "/img/port_blon.webp"
 type: "posts"
 location: "بيروت"
 function: "مركز"

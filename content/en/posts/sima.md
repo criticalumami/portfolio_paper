@@ -24,6 +24,8 @@ The **Sustainable Integrated Municipal Action (SIMA)** launched by [UNOPS](https
 
 I was contacted by the urban planning team working with UNOPS to contribute to the architectural and urban strategy consultancy under the SIMA **Street Network** subproject.
 
+![sima1](/img/sim2.webp "SIMA-SN Sections")
+
 The objective of this effort was to reorganize and improve pedestrian accessibility within Beirut's administrative borders and its surrounding suburbs. The UNOPS project management team identified seven key sectors requiring study and reconnection:
 
 - **S01** — [Yerevan Flyover, Bourj Hammoud](https://sima-yf.netlify.app)
@@ -54,8 +56,8 @@ You can view an example of this cartography here: [S05 — Beirut Corniche](/img
 
 ---
 
-![sima1](/img/dat-1.png "Sevtsuk et al. (2024)")
-{{< gallery "/img/dat-2.png" "Busmap.me (2017)" "/img/dat-4.png" "SIMA - Site Survey - BC" "/img/dat-4.png" "SIMA - Site Survey - BC" >}}
+![sima1](/img/dat-1.webp "Sevtsuk et al. (2024)")
+{{< gallery "/img/dat-2.webp" "Busmap.me (2017)" "/img/dat-4.webp" "SIMA - Site Survey - BC" "/img/dat-4.webp" "SIMA - Site Survey - BC" >}}
 
 ---
 
@@ -77,13 +79,13 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 
 ---
 
-![sima1](/img/sima1.png "SIMA Masterplan")
+![sima1](/img/sima1.webp "SIMA Masterplan")
 
-{{< gallery "/img/sima2.png" "SIMA Intervention Categories" "/img/SIMA3.png" "/img/dat-4.png" "SIMA - Site Survey - BC" >}}
+{{< gallery "/img/sima2.webp" "SIMA Intervention Categories" "/img/SIMA3.webp" "Intervention Matrix" >}}
 
-![sima2](/img/brief-2.png "Section 07 - Cola Roundabout - brief")
+![sima2](/img/brief-2.webp "Section 07 - Cola Roundabout - brief")
 
-{{< gallery "/img/brief-1.png" "Section 07 - Cola Roundabout - sat" "/img/brief-3.png" "Section 07 - Cola Roundabout - proposal" >}}
+{{< gallery "/img/brief-1.webp" "Section 07 - Cola Roundabout - sat" "/img/brief-3.webp" "Section 07 - Cola Roundabout - proposal" >}}
 
 ---
 
@@ -95,9 +97,12 @@ This is where the whole project comes together bridging previous analytical work
 
 ---
 
-![sima1](/img/con-3.png "Urban Seating")
+![sima1](/img/con-3.webp "Urban Seating")
 
-{{< gallery "/img/con-1.png" "Jersey Block Reuse" "/img/con-2.png" "Urban Modules" "/img/con-6.png" "Modular Parklets">}}
+{{< gallery "/img/con-1.webp" "Jersey Block Reuse" "/img/con-2.webp" "Urban Modules" "/img/con-6.webp" "Modular Parklets">}}
+
+![sima1](/img/br.webp "Cola Roundabout Garden")
+![sima1](/img/br2.webp "Cola Roundabout Garden")
 
 ---
 
@@ -107,9 +112,9 @@ This is where execution-tier drawings were put together, I had to manage a team 
 
 The end product sample could be reviewed [here](img/cr.pdf)
 
-![sima1](/img/rd1-1.png "S01-01")
+![sima1](/img/rd1-1.webp "S01-01")
 
-{{< gallery "/img/rd1-2.png" "S01-02" "/img/rd1-3.png" "S01-03" "/img/rd1-4.png" "S01-04" "/img/rd1-5.png" "S01-05" "/img/rd1-6.png" "S01-06" "/img/rd1-7.png" "S01-07" >}}
+{{< gallery "/img/rd1-2.webp" "S01-02" "/img/rd1-3.webp" "S01-03" "/img/rd1-4.webp" "S01-04" "/img/rd1-5.webp" "S01-05" "/img/rd1-6.webp" "S01-06" "/img/rd1-7.webp" "S01-07" >}}
 
 ---
 

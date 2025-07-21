@@ -3,16 +3,16 @@ title: " ققرا"
 date: 2025-04-11
 draft: false
 translationKey: "faq"
-featuredImage: "/img/port_bfaq.png"
+featuredImage: "/img/port_bfaq.webp"
 showImage: true
 cover:
-  image: "/img/port_bfaq.png"
+  image: "/img/port_bfaq.webp"
   alt: "faq"
   caption: "faq"
   relative: false 
 tags: ["architecture"]
 categories: ["interior"]
-thumbnail: "/img/port_bfaq.png"
+thumbnail: "/img/port_bfaq.webp"
 type: "posts"
 location: "موقع العينة"
 function: "وظيفة العينة"
