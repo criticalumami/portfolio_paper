@@ -14,7 +14,7 @@ params:
   showImage: true
   description: "I am an architect with a penchant for modernism, however over the years I've found myself diving into geographical information systems and general spatial information storage and representation. This site is where I keep the archive and showcase some web development, urban plannin, architecture, GIS and cartography related work."
   favicon: "/favicon.ico"
-  featuredImage: "img/port_bjup.webp"
+  featuredImage: "img/po.webp"
   homepageCategoriesOrder:
     - "urban"
     - "architecture"
