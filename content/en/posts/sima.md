@@ -52,10 +52,10 @@ Additionally, we carried out detailed topographical surveys of all seven sectors
 
 You can view an example of this cartography here: [S05 — Beirut Corniche](/img/sima_1_bc.pdf).
 
+---
+
 ![sima1](/img/dat-1.png "Sevtsuk et al. (2024)")
-![sima2](/img/dat-2.png "Busmap.me (2017)")
-![sima4](/img/dat-4.png "SIMA - Site Survey - BC")
-![sima3](/img/dat-3.png "SIMA - Site Survey - BC")
+{{< gallery "/img/dat-2.png" "Busmap.me (2017)" "/img/dat-4.png" "SIMA - Site Survey - BC" "/img/dat-4.png" "SIMA - Site Survey - BC" >}}
 
 ---
 
@@ -75,13 +75,15 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 
 - Finally this phase also saw frequent consultations with local and regional stakeholders in order the assess both the feasibility of our proposals as well as the reaction of local communities and their participation in the design process.
 
-![sima1](/img/sima1.png "SIMA Masterplan")
-![sima2](/img/sima2.png "SIMA Intervention Categories")
-![sima3](/img/sima3.png "SIMA Intervention Matrix (per section)")
+---
 
-![sima1](/img/brief-1.png "Section 07 - Cola Roundabout - sat")
+![sima1](/img/sima1.png "SIMA Masterplan")
+
+{{< gallery "/img/sima2.png" "SIMA Intervention Categories" "/img/SIMA3.png" "SIMA Intervention Matrix (per section)" "/img/dat-4.png" "SIMA - Site Survey - BC" >}}
+
 ![sima2](/img/brief-2.png "Section 07 - Cola Roundabout - brief")
-![sima3](/img/brief-3.png "Section 07 - Cola Roundabout - proposal")
+
+{{< gallery "/img/brief-1.png" "Section 07 - Cola Roundabout - sat" "/img/brief-3.png" "Section 07 - Cola Roundabout - proposal" >}}
 
 ---
 
