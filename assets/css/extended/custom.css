@@ -361,6 +361,16 @@ a {
     border: 1px solid #ccc;
 }
 
+body.dark .grid-item.featured .featured-tag {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid #333 !important;
+    opacity: 1 !important;
+    display: block !important;
+    visibility: visible !important;
+    z-index: 9999 !important;
+}
+
 .post-content .entry-cover figcaption {
     font-size: 14px; /* Matches .entry-cover font-size */
     color: var(--secondary); /* Common text color for meta info */
