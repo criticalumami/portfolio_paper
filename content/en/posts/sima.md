@@ -1,7 +1,7 @@
 ---
 date: '2025-07-09T16:08:58+03:00'
 draft: false
-title: 'Pedestrian Networks'
+title: 'Beirut Pedestrian Network'
 featured: true
 translationKey: "sima"
 cover:
@@ -95,12 +95,9 @@ This is where the whole project comes together bridging previous analytical work
 
 ---
 
-![sima1](/img/con-1.png "sim1")
-![sima1](/img/con-2.png "sim1")
-![sima1](/img/con-3.png "sim1")
-![sima1](/img/con-4.png "sim1")
-![sima1](/img/con-5.png "sim1")
-![sima1](/img/con-6.png "sim1")
+![sima1](/img/con-3.png "Urban Seating")
+
+{{< gallery "/img/con-1.png" "Jersey Block Reuse" "/img/con-2.png" "Urban Modules" "/img/con-6.png" "Modular Parklets">}}
 
 ---
 
@@ -110,9 +107,9 @@ This is where execution-tier drawings were put together, I had to manage a team 
 
 The end product sample could be reviewed [here](img/cr.pdf)
 
-![sima1](/img/rd1-1.png "sim1")
+![sima1](/img/rd1-1.png "S01-01")
 
-{{< gallery "/img/rd1-2.png" "test" "/img/rd1-3.png" "test" "/img/rd1-4.png" "test" "/img/rd1-5.png" "test" "/img/rd1-6.png" "test" "/img/rd1-7.png" "test" >}}
+{{< gallery "/img/rd1-2.png" "S01-02" "/img/rd1-3.png" "S01-03" "/img/rd1-4.png" "S01-04" "/img/rd1-5.png" "S01-05" "/img/rd1-6.png" "S01-06" "/img/rd1-7.png" "S01-07" >}}
 
 ---
 
