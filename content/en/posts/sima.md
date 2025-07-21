@@ -9,7 +9,7 @@ cover:
   alt: "cola roundabout in beirut"
   caption: "S02 - Bourj Hammoud"
   relative: false 
-categories: ["urban", "architecture", "interior", "research"]
+categories: ["urban", "architecture", "research"]
 thumbnail: "/img/port_bsima.webp"
 type: "posts"
 location: "Beirut LB"
@@ -40,8 +40,6 @@ _follow the links above for interactive sample maps_
 
 Throughout the project we worked with a team of engineers, architects, consultants and administrators to provide a holistic approach to pedestrian mobility in the city.
 
-
-
 ---
 
 ### Data Collection
@@ -53,8 +51,6 @@ Thus after conducting an extensive review of previous projects and literature on
 Additionally, we carried out detailed topographical surveys of all seven sectors and captured 360-degree video footage of the entire street network.
 
 You can view an example of this cartography here: [S05 — Beirut Corniche](/img/sima_1_bc.pdf).
-
----
 
 ![sima1](/img/dat-1.webp "Sevtsuk et al. (2024)")
 {{< gallery "/img/dat-2.webp" "Busmap.me (2017)" "/img/dat-4.webp" "SIMA - Site Survey - BC" "/img/dat-4.webp" "SIMA - Site Survey - BC" >}}
@@ -77,8 +73,6 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 
 - Finally this phase also saw frequent consultations with local and regional stakeholders in order the assess both the feasibility of our proposals as well as the reaction of local communities and their participation in the design process.
 
----
-
 ![sima1](/img/sima1.webp "SIMA Masterplan")
 
 {{< gallery "/img/sima2.webp" "SIMA Intervention Categories" "/img/SIMA3.webp" "Intervention Matrix" >}}
@@ -95,8 +89,6 @@ Once potential sites of intervention and networks of pedestrian movement were dr
 
 This is where the whole project comes together bridging previous analytical works with on-the-ground design methods and procurement means.
 
----
-
 ![sima1](/img/con-3.webp "Urban Seating")
 
 {{< gallery "/img/con-1.webp" "Jersey Block Reuse" "/img/con-2.webp" "Urban Modules" "/img/con-6.webp" "Modular Parklets">}}
@@ -108,9 +100,11 @@ This is where the whole project comes together bridging previous analytical work
 
 ### Detailed Design
 
-This is where execution-tier drawings were put together, I had to manage a team of architects in the drawing phase and coordinate with the engineers and administrative authorities. A major challenge of this phase was my role as a coordinator between project management i.e UNOPS, the engineering firm Kredo and the architects at Akl Architects.
+Finally execution drawings were put together, I had to manage a team of architects in the drawing phase and coordinate with the engineers and administrative authorities.
 
-The end product sample could be reviewed [here](img/cr.pdf)
+A major challenge of this phase was my role as a coordinator between project management i.e UNOPS, the engineering firm Kredo and the architects at Akl Architects.
+
+The end product sample (for S07 - Cola Roundabout) could be reviewed [here](/img/rd7.pdf)
 
 ![sima1](/img/rd1-1.webp "S01-01")
 
@@ -118,9 +112,7 @@ The end product sample could be reviewed [here](img/cr.pdf)
 
 ---
 
-### Moving Forward
-
-The next steps will involve refining these designs, securing additional funding, and coordinating with stakeholders to ensure the sustainable implementation and maintenance of the proposed pedestrian network improvements.
+### Interactive Maps of Yerevan & Cola
 
 <figure>
     <iframe src="https://sima-yf.netlify.app" style="border:0; width:100%; height:500px;"></iframe>
