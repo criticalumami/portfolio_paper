@@ -18,6 +18,10 @@ body, html {
     font-size: 0.9rem;
 }
 
+.post-content p {
+    font-size: 1.1em;
+}
+
 /* Light theme background */
 body:not(.dark),
 body:not(.dark) .main {
@@ -380,9 +384,7 @@ a {
     margin-top: 0.5rem;
 }
 
-/* Custom styles for map iframe */
-.map-iframe {
-    border: none;
-    height: 500px;
-    width: 100%;
+.post-content .figure-caption {
+    font-weight: normal;
+    text-align: center;
 }

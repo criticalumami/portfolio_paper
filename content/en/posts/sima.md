@@ -79,7 +79,7 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 
 ![sima1](/img/sima1.png "SIMA Masterplan")
 
-{{< gallery "/img/sima2.png" "SIMA Intervention Categories" "/img/SIMA3.png" "SIMA Intervention Matrix (per section)" "/img/dat-4.png" "SIMA - Site Survey - BC" >}}
+{{< gallery "/img/sima2.png" "SIMA Intervention Categories" "/img/SIMA3.png" "/img/dat-4.png" "SIMA - Site Survey - BC" >}}
 
 ![sima2](/img/brief-2.png "Section 07 - Cola Roundabout - brief")
 
@@ -93,12 +93,15 @@ Once potential sites of intervention and networks of pedestrian movement were dr
 
 This is where the whole project comes together bridging previous analytical works with on-the-ground design methods and procurement means.
 
+---
+
 ![sima1](/img/con-1.png "sim1")
 ![sima1](/img/con-2.png "sim1")
 ![sima1](/img/con-3.png "sim1")
 ![sima1](/img/con-4.png "sim1")
 ![sima1](/img/con-5.png "sim1")
 ![sima1](/img/con-6.png "sim1")
+
 ---
 
 ### Detailed Design
@@ -116,3 +119,13 @@ The end product sample could be reviewed [here](img/cr.pdf)
 ### Moving Forward
 
 The next steps will involve refining these designs, securing additional funding, and coordinating with stakeholders to ensure the sustainable implementation and maintenance of the proposed pedestrian network improvements.
+
+<figure>
+    <iframe src="https://sima-yf.netlify.app" style="border:0; width:100%; height:500px;"></iframe>
+    <figcaption class="figure-caption text-center">S01 Yerevan Interactive</figcaption>
+</figure>
+
+<figure>
+    <iframe src="https://sima-cr.netlify.app" style="border:0; width:100%; height:500px;"></iframe>
+    <figcaption class="figure-caption text-center">S07 Cola Roundabout Interactive</figcaption>
+</figure>
