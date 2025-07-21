@@ -12,6 +12,3 @@ hideMeta: true
 **[التواصل](mailto:jbeili.amer@gmail.com)**
 
 </div>
-
-
-**وَلَا تَهِنُواْ وَلَا تَحْزَنُواْ**

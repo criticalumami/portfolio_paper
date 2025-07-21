@@ -10,7 +10,8 @@ cover:
   alt: "faq"
   caption: "faq"
   relative: false 
-tags: ["architecture"]
+
+
 categories: ["interior"]
 thumbnail: "/img/port_bfaq.webp"
 type: "posts"

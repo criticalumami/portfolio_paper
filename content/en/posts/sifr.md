@@ -1,7 +1,7 @@
 ---
 date: '2025-05-11T16:08:58+03:00'
 draft: false
-title: 'Videography'
+title: 'Systematic A/V'
 translationKey: "sift"
 cover:
   image: "/img/port_bjup.webp"
@@ -13,8 +13,8 @@ type: "posts"
 location: "Sample Location"
 function: "Sample Function"
 role: "Sample Role"
-categories: ["research", "video"]
-rank: 5
+categories: ["video", "research"]
+rank: 80
 ---
 
 ### Overview

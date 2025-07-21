@@ -8,6 +8,7 @@ cover:
   alt: "pericentral"
   caption: "maps"
   relative: false
+
 categories: [ "architecture", "research", "interior"]
 thumbnail: "/img/port_blon.webp"
 type: "posts"

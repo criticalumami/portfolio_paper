@@ -14,7 +14,7 @@ type: "posts"
 location: "Beirut LB"
 function: "Student Union"
 role: "Architectural Student"
-rank: 10
+rank: 90
 ---
 
 In the first instance of our reconversion we had decided to reconvene the meeting and throw it back to the second line in command to inspect and attend to the other matters that are more pressing, we thus managed periodically a thorough analysis of the current situation especially after the coming war.

@@ -10,7 +10,8 @@ cover:
   alt: "oteco"
   caption: "oteco"
   relative: false 
-tags: ["architecture"]
+
+
 categories: ["architecture","interior"]
 thumbnail: "/img/port_bote.webp"
 type: "posts"

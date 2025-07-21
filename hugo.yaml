@@ -46,8 +46,8 @@ languages:
       mainSections: ["posts"]
       view: "card"
       homeInfoParams:
+        Content: "I've been academically formed as an architect however over the years I've found myself diving into geographical information systems and general spatial information storage and representation. This is where I keep the archive and showcase some web development, urban plannin, architecture, GIS and cartography related work."
         Title: "Work Samples"
-        Content: "You've probably ended here by scanning the QR code or clicking on the link of my 'work samples' document. This is where I keep the archive and showcase some web development with simple HTML, CSS and very little JS (mainly to show 3D models and interactive maps)."
       ShowLanguageSwitcher: true  
     title: "Amer Jbeili"
     menu:
@@ -74,8 +74,8 @@ languages:
       mainSections: ["posts"]
       view: "card"
       homeInfoParams:
+        Content: "لقد تشكلت أكاديمياً كمهندس معماري، ومع ذلك، على مر السنين وجدت نفسي أتعمق في نظم المعلومات الجغرافية وتخزين وتمثيل المعلومات المكانية العامة. هذا هو المكان الذي أحتفظ فيه بالأرشيف وأعرض بعض أعمال تطوير الويب، والتخطيط الحضري، والهندسة المعمارية، ونظم المعلومات الجغرافية، والأعمال المتعلقة بالخرائط."
         Title: "نماذج أعمال"
-        Content: "من المحتمل أنكم وصلتم إلى هنا عبر مسح رمز الاستجابة السريعة (QR) أو من خلال النقر على رابط وثيقة “عينات الأعمال” الخاصة بنا. نرحّب بكم ونتمنى لكم تصفحًا ممتعًا."
       ShowLanguageSwitcher: true
     title: "عامر الجبيلي"
     menu:

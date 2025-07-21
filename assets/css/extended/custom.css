@@ -9,7 +9,7 @@
 
 /* Adjust main content padding to prevent it from being hidden behind the sticky header */
 .main {
-    padding-top: 50px; /* Adjusted to make the header a tad smaller */
+    padding-top: 20px; /* Adjusted to make the header a tad smaller */
 }
 
 /* Font settings */
@@ -142,15 +142,16 @@ body.dark .main .post-entry {
     margin-top: 0.5rem;
     font-size: 1.1rem;
 }
+
+/* Adjust spacing for elements within layouts/index.html */
 .gallery-grid > p {
-    margin-bottom: 0.5rem;
-    margin-top: 1rem; /* Added margin to lower the paragraph */
+    margin-bottom: 1.5rem; /* Increased space after paragraph */
+    margin-top: 0.5rem; /* Make paragraph closer to the banner */
 }
-.gallery-grid > p {
-    margin-top: 5rem; /* Added margin to lower the paragraph */
-}
+
 .gallery-grid h1 {
-    margin-bottom: 0; /* Adjusted to remove space below title */
+    margin-bottom: 0.5rem; /* Make title closer to categories */
+    margin-top: 0; /* Move title closer to the top */
 }
 
 
@@ -159,7 +160,7 @@ body.dark .main .post-entry {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
-  margin-top: 5rem;
+  margin-top: 0.5rem; /* Make categories closer to elements above */
   font-size: 1em;
 }
 
@@ -311,11 +312,13 @@ body.dark .main .post-entry {
     margin-top: 0.2rem; /* Adjusted to remove space above squares */
     justify-content: flex-start; /* Align squares to the left */
     align-items: center;
+    margin-bottom: 1.5rem; /* Increased space after colored squares */
 }
 
 .category-square {
     width: 10px;
     height: 10px;
+    margin-bottom: 2.5rem;
     /* Removed border-radius for solid corners */
 }
 

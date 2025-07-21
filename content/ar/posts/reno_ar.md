@@ -8,6 +8,7 @@ cover:
   alt: "north carolina" 
   caption: "North Carolina Renovation"
   relative: false 
+
 tags: ["architecture"]
 categories: ["interior", "architecture", "urban"]
 thumbnail: "/img/port_breno.webp"

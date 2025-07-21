@@ -8,7 +8,8 @@ cover:
   alt: "pericentral"
   caption: "maps"
   relative: false 
-tags: ["architecture"]
+
+
 categories: ["architecture", "research", "interior"]
 thumbnail: "/img/port_bmar.webp"
 type: "posts"

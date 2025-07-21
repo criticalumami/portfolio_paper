@@ -8,8 +8,9 @@ cover:
   alt: "cola roundabout in beirut"
   caption: "garden housing"
   relative: false 
+
 tags: ["architecture"]
-categories: ["urban", "architecture"]
+categories: ["urban", "interior", "research"]
 thumbnail: "/img/port_burb.webp"
 type: "posts"
 location: "موقع العينة"

@@ -4,6 +4,7 @@
   <div class="category-squares">
     {{ range $categoryName := .Site.Params.homepageCategoriesOrder }}
       {{- $categoryColor := index site.Data.category_colors (lower $categoryName) -}}
+      
       {{- if $categoryColor -}}
         <span class="category-square" style="background-color: {{ $categoryColor }};"></span>
       {{- end -}}

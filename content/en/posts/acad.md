@@ -14,7 +14,7 @@ type: "posts"
 location: "Sample Location"
 function: "Sample Function"
 role: "Sample Role"
-rank: 98
+rank: 100
 ---
 
 ### On the prospect of reconversion
