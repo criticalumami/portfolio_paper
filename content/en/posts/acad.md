@@ -4,12 +4,12 @@ draft: false
 title: 'Pericentral Rent Gap'
 translationKey: "acad"
 cover:
-  image: "/img/port_bacad.webp"
+  image: "/img/alex.webp"
   alt: "pericentral"
   caption: "maps"
   relative: false 
 categories: ["urban", "architecture", "interior", "research"]
-thumbnail: "/img/port_bacad.webp"
+thumbnail: "/img/alex.webp"
 type: "posts"
 location: "Sample Location"
 function: "Sample Function"
@@ -27,8 +27,8 @@ This is also why we weren't able to reconsider previous chapters of the current 
 
 Regarding the submission of previously presented documents we adopted a two-fold approach to the problematic we first envisaged the structure of the current state of events followed by a reconsideration of our previous assesment in the non-sensical.
 
-<iframe src="https://portostap.netlify.app/#bei" width="100%" height="480" style="border:none; filter: grayscale(100%)"></iframe>
-
 For these matters to be reassesed we were facing major political obstacles within the dynamics of our close-knit group e nwant to emphasis the importance of the bionese approach to group politics, this first goes hand in hand with the reconsideration of the whole environement previously layed bare by our dynmics and our
+
+  <img src="/img/b.gif" width="100%" style="border:none; filter: grayscale(100%)"></img>
 
 

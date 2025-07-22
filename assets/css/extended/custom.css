@@ -400,3 +400,13 @@ body.dark .grid-item.featured .featured-tag {
     font-size: 0.7rem; /* Smaller font size for gallery captions */
     margin-top: 0.2rem; /* Space above gallery caption */
 }
+
+/* Spacing for post content */
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-content figure.entry-cover {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
