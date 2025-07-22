@@ -1,7 +1,7 @@
 ---
 date: '2025-04-11T16:08:58+03:00'
 draft: false
-title: 'Bergen Assembly'
+title: 'Studio Miessen DE'
 translationKey: "mar"
 cover:
   image: "/img/port_bmar.webp"
@@ -17,6 +17,10 @@ role: "Sample Role"
 rank: 70
 ---
 In the first instance of our reconversion we had decided to reconvene the meeting and throw it back to the second line in command to inspect and attend to the other matters that are more pressing, we thus managed periodically a thorough analysis of the current situation especially after the coming war 
+
+![mies](/img/mies00004.jpg)
+
+{{<gallery "/img/mies00001.jpg" "" "/img/mies00002.jpg" "" "/img/mies00003.jpg" "" "/img/mies00004.jpg" "" "/img/mies00005.jpg" "" "/img/mies00006.jpg" "" "/img/mies00007.jpg" "" "/img/mies00008.jpg" "" "/img/mies00009.jpg" "" "/img/mies00010.jpg" "" "/img/mies00011.jpg" "" "/img/mies00012.jpg" "" "/img/mies00013.jpg" "">}}
 
 This is also why we weren't able to reconsider previous chapters of the current contractions, we will thus try and reconfigure the whole study in a manner that appeals to the less versed in the aspects of tpolitical entaglement in the city of beirut and more globally in the levantine and south levantine area.
 

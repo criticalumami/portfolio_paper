@@ -10,7 +10,7 @@ cover:
   caption: "S02 - Bourj Hammoud"
   relative: false 
 categories: ["urban", "architecture", "research"]
-thumbnail: "/img/port_bsima.webp"
+thumbnail: "/img/s2.gif"
 type: "posts"
 location: "Beirut LB"
 function: "Pedestrian & Soft-Mobility Masterplan"
