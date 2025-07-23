@@ -18,13 +18,17 @@ role: "Urban Planning & Architecture Consultant"
 rank: 200
 year: 2024-2025
 ---
+
+
+
+![sima1](/img/sim2.webp "SIMA-SN Sections")
+
+
 ### Overview & Beginnings
 
 The **Sustainable Integrated Municipal Action (SIMA)** launched by [UNOPS](https://lebanon.un.org/en/227264-unops-launches-two-call-proposals-lebanon), aims to support Lebanese regional authorities—namely municipalities—by providing funding and management assistance for various sustainable initiatives across the country.
 
 I was contacted by the urban planning team working with UNOPS to contribute to the architectural and urban strategy consultancy under the SIMA **Street Network** subproject.
-
-![sima1](/img/sim2.webp "SIMA-SN Sections")
 
 The objective of this effort was to reorganize and improve pedestrian accessibility within Beirut's administrative borders and its surrounding suburbs. The UNOPS project management team identified seven key sectors requiring study and reconnection:
 

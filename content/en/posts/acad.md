@@ -28,14 +28,14 @@ We happen to have a perfect case-study for this phenomena in Beirut; the [Beirut
 
 BDD was on the other side of the ring, and this was what made the project so profitable. This reflexion led me to work on the periphery of BCD, studying the linear border that separates geographies both physical and social.
 
-<iframe src="https://portostap.netlify.app/" width="100%" height="480" style="border:none; filter: grayscale(100%)"></iframe>
+<iframe src="https://portostap.netlify.app/#bei" width="100%" height="480" style="border:none; filter: grayscale(100%)"></iframe>
 
 Regarding the submission of previously presented documents we adopted a two-fold approach to the problematic we first envisaged the structure of the current state of events followed by a reconsideration of our previous assesment in the non-sensical.
 
-  <img src="/img/b.gif" width="100%" style="border:none; filter: grayscale(100%)"></img>
-
-  {{<gallery "/img/1934.webp" "1941" "/img/2004.webp" "2004'">}}
-
 For these matters to be reassesed we were facing major political obstacles within the dynamics of our close-knit group e nwant to emphasis the importance of the bionese approach to group politics, this first goes hand in hand with the reconsideration of the whole environement previously layed bare by our dynmics and our
+
+<img src="/img/b.gif" width="100%" style="border:none; filter: grayscale(100%)"></img>
+
+{{<gallery "/img/1934.webp" "1941" "/img/2004.webp" "2004'">}}
 
 ![maq](/img/maq.jpg)
