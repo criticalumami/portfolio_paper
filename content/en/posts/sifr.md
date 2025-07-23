@@ -21,7 +21,7 @@ rank: 80
 
 This project started with a previously recorded multi-episode podcast about political economy in the Arab world, I've been contacted to archive the whole audio data content and create a systematic way to produce social media content for the re-release of the episodes on the "sifr" platform. 
 
-Being presented with hours upon hours of recorded audio data I've had to find a way to be able to search through the content in a thematic way, my first attempt was through the "openAI" with the "whisper" library, this is a machine learning algorithm developed by openAI that enables its user to time-tag and transliterate vast amount of audio datum in order to create a text based dataset that could get queried on the fly. This was the first time 
+Being presented with hours upon hours of recorded audio data I've had to find a way to be able to search through the content in a thematic way, my first attempt was through the "openAI" with the "whisper" library, this is a machine learning algorithm developed by openAI that enables its user to time-tag and transliterate a vast amount of audio data in order to create a text based dataset that could get queried on the fly.
 
 ```python
 import tkinter as tk
@@ -31,7 +31,6 @@ import re
 import subprocess
 
 def srt_time_to_seconds(time_str):
-    """Converts an SRT time string (HH:MM:SS,ms or HH:MM:SS.ms) to seconds."""
     parts = re.split('[:,.]', time_str)
     if len(parts) == 4:
         h, m, s, ms = int(parts[0]), int(parts[1]), int(parts[2]), int(parts[3])
@@ -39,9 +38,6 @@ def srt_time_to_seconds(time_str):
     return 0
 
 def search_srt_files(directory, search_term):
-    """
-    Searches for a term in SRT files within a directory and returns matching video info.
-    """
     results = []
     if not os.path.isdir(directory):
         return results
@@ -50,22 +46,19 @@ def search_srt_files(directory, search_term):
         for file in files:
             if file.endswith(".srt"):
                 srt_path = os.path.join(root, file)
-                video_path = os.path.splitext(srt_path)[0] + ".mp4" # Assuming .mp4
+                video_path = os.path.splitext(srt_path)[0] + ".mp4"
                 if not os.path.exists(video_path):
-                    video_path = os.path.splitext(srt_path)[0] + ".mkv" # Also check for .mkv
+                    video_path = os.path.splitext(srt_path)[0] + ".mkv"
                 if not os.path.exists(video_path):
-                    video_path = os.path.splitext(srt_path)[0] + ".mov" # Also check for .mov
+                    video_path = os.path.splitext(srt_path)[0] + ".mov"
                 if not os.path.exists(video_path):
-                    video_path = os.path.splitext(srt_path)[0] + ".avi" # Also check for .avi
+                    video_path = os.path.splitext(srt_path)[0] + ".avi"
                 if not os.path.exists(video_path):
-                    continue # Skip if no corresponding video found
+                    continue
 
                 try:
                     with open(srt_path, 'r', encoding='utf-8') as f:
                         content = f.read()
-                        # Regex to find timestamps and the following line of text
-                        # It looks for a timestamp line, then captures the next line which is the subtitle text
-                        # This is a simplified approach and might need refinement for complex SRT structures
                         pattern = re.compile(r'(\d{1,2}:\d{2}:\d{2}[,. ]\d{3})\s*-->\s*\d{1,2}:\d{2}:\d{2}[,. ]\d{3}\s*\n(.*?{}.*?)\n'.format(re.escape(search_term)), re.IGNORECASE | re.DOTALL)
                         
                         for match in pattern.finditer(content):
@@ -82,26 +75,22 @@ def search_srt_files(directory, search_term):
     return results
 
 def play_video_at_time(video_path, start_time_seconds):
-    """
-    Plays a video at a specific time using VLC.
-    """
     try:
-        # Try to find VLC executable
         vlc_path = None
-        if os.name == 'nt': # Windows
+        if os.name == 'nt':
             vlc_path = os.path.join(os.environ.get('ProgramFiles', 'C:\\Program Files'), 'VideoLAN', 'VLC', 'vlc.exe')
             if not os.path.exists(vlc_path):
                 vlc_path = os.path.join(os.environ.get('ProgramFiles(x86)', 'C:\\Program Files (x86)'), 'VideoLAN', 'VLC', 'vlc.exe')
-        elif os.name == 'posix': # Linux/macOS
-            vlc_path = 'vlc' # Assume it's in PATH
+        elif os.name == 'posix':
+            vlc_path = 'vlc'
             
-        if vlc_path and subprocess.run(['which', vlc_path], capture_output=True).returncode == 0: # Check if vlc is in PATH or found
+        if vlc_path and subprocess.run(['which', vlc_path], capture_output=True).returncode == 0:
             subprocess.Popen([vlc_path, '--start-time', str(int(start_time_seconds)), video_path])
         else:
             messagebox.showwarning("VLC Not Found", "VLC Media Player not found. Opening video without seeking to time. Please install VLC for full functionality.")
-            subprocess.Popen(['xdg-open', video_path]) # Linux fallback
-            subprocess.Popen(['open', video_path]) # macOS fallback
-            subprocess.Popen([video_path], shell=True) # Windows fallback
+            subprocess.Popen(['xdg-open', video_path])
+            subprocess.Popen(['open', video_path])
+            subprocess.Popen([video_path], shell=True)
     except Exception as e:
         messagebox.showerror("Error Playing Video", f"Could not play video: {e}")
 
@@ -111,9 +100,8 @@ class SifrGUI:
         master.title("Sifr Subtitle Search & Play")
 
         self.current_directory = tk.StringVar()
-        self.current_directory.set(os.getcwd()) # Default to current working directory
+        self.current_directory.set(os.getcwd())
 
-        # Directory selection
         self.dir_frame = tk.Frame(master)
         self.dir_frame.pack(pady=10)
 
@@ -122,7 +110,6 @@ class SifrGUI:
         self.dir_entry.pack(side=tk.LEFT, padx=5)
         tk.Button(self.dir_frame, text="Browse", command=self.browse_directory).pack(side=tk.LEFT)
 
-        # Search input
         self.search_frame = tk.Frame(master)
         self.search_frame.pack(pady=5)
 
@@ -131,7 +118,6 @@ class SifrGUI:
         self.search_term_entry.pack(side=tk.LEFT, padx=5)
         tk.Button(self.search_frame, text="Search", command=self.perform_search).pack(side=tk.LEFT)
 
-        # Results display
         self.results_frame = tk.Frame(master)
         self.results_frame.pack(pady=10, fill=tk.BOTH, expand=True)
 
@@ -143,11 +129,10 @@ class SifrGUI:
         self.scrollbar.pack(side=tk.RIGHT, fill="y")
         self.results_listbox.config(yscrollcommand=self.scrollbar.set)
 
-        # Play button
         self.play_button = tk.Button(master, text="Play Selected Video", command=self.play_selected_video)
         self.play_button.pack(pady=5)
 
-        self.search_results = [] # To store the actual data of search results
+        self.search_results = []
 
     def browse_directory(self):
         directory = filedialog.askdirectory()
@@ -165,7 +150,7 @@ class SifrGUI:
             messagebox.showwarning("Input Error", "Please select a valid search directory.")
             return
 
-        self.results_listbox.delete(0, tk.END) # Clear previous results
+        self.results_listbox.delete(0, tk.END)
         self.search_results = search_srt_files(directory, search_term)
 
         if not self.search_results:
@@ -194,6 +179,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = SifrGUI(root)
     root.mainloop()
+
 ```
 
 <video width=100% height=100% controls allowfullscreen>

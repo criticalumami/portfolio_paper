@@ -24,7 +24,7 @@ year: 2024-2025
 ![sima1](/img/sim2.webp "SIMA-SN Sections")
 
 
-### Overview & Beginnings
+#### Overview & Beginnings
 
 The **Sustainable Integrated Municipal Action (SIMA)** launched by [UNOPS](https://lebanon.un.org/en/227264-unops-launches-two-call-proposals-lebanon), aims to support Lebanese regional authorities—namely municipalities—by providing funding and management assistance for various sustainable initiatives across the country.
 
@@ -46,7 +46,7 @@ Throughout the project we worked with a team of engineers, architects, consultan
 
 ---
 
-### Data Collection
+#### Data Collection
 
 I was first tasked with reviewing existing literature and previously planned projects that touch on pedestrian mobility and mass transit in Beirut and Bourj Hammoud, while these projects were easily accessible raw geographical information was scarce and hard to access.
 
@@ -61,9 +61,9 @@ You can view an example of this cartography here: [S05 — Beirut Corniche](/img
 
 ---
 
-### Design Brief
+#### Design Brief
 
-Following an in-depth site analysis and a comprehensive review of existing studies and projects related to soft mobility in Beirut and its suburbs, we identified several core challenges hindering pedestrian mobility in the city. To address these, we adopted a three-pronged vectors of interventions:
+Following an in-depth site analysis and a comprehensive review of existing studies and projects related to soft mobility in Beirut and its suburbs, we identified several core challenges hindering pedestrian mobility in the city. To address these, we adopted a three vectors of interventions:
 
 - **Hardscape Interventions**
 - **Tactical Urban Interventions**
@@ -75,7 +75,7 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 
 - In parallel, we also explored temporary or short-term measures inspired by the principles of tactical urbanism. These interventions are designed to maximize the use of public spaces without requiring long-term capital investment in permanent infrastructure. By allowing for flexible and adaptable changes, tactical urbanism creates opportunities for the urban environment to evolve organically in response to shifting needs and conditions.
 
-- Finally this phase also saw frequent consultations with local and regional stakeholders in order the assess both the feasibility of our proposals as well as the reaction of local communities and their participation in the design process.
+- Finally this phase also saw frequent consultations with local and regional stakeholders in order to assess both the feasibility of our proposals as well as the reaction of local communities and their participation in the design process.
 
 ![sima1](/img/sima1.webp "SIMA Masterplan")
 
@@ -87,7 +87,7 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 
 ---
 
-### Concept Design
+#### Concept Design
 
 Once potential sites of intervention and networks of pedestrian movement were drawn we embarked on the design of actual spatial concepts for the different sections. We followed the previously elaborated matrix to develop localized solutions for each section as well as a systematic design approach for dealing with sidewalks and urban furniture.
 
@@ -102,7 +102,7 @@ This is where the whole project comes together bridging previous analytical work
 
 ---
 
-### Detailed Design
+#### Detailed Design
 
 Finally execution drawings were put together, I had to manage a team of architects in the drawing phase and coordinate with the engineers and administrative authorities.
 
@@ -116,7 +116,7 @@ The end product sample (for S07 - Cola Roundabout) could be reviewed [here](/img
 
 ---
 
-### Interactive Maps of Yerevan & Cola
+#### Interactive Maps of Yerevan & Cola
 
 <figure>
     <iframe src="https://sima-yf.netlify.app" style="border:0; width:100%; height:500px;"></iframe>

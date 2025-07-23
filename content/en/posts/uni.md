@@ -6,7 +6,7 @@ translationKey: "uni"
 cover:
   image: "/img/port_buni.webp"
   alt: "unig"
-  caption: "housing"
+  caption: "BCD Student Union Center"
   relative: false 
 categories: ["architecture", "interior", "research"]
 thumbnail: "/img/port_buni.webp"
@@ -17,16 +17,23 @@ role: "Architectural Student"
 rank: 90
 ---
 
-In the first instance of our reconversion we had decided to reconvene the meeting and throw it back to the second line in command to inspect and attend to the other matters that are more pressing, we thus managed periodically a thorough analysis of the current situation especially after the coming war.
+#### Contingencies
 
-This is also why we weren't able to reconsider previous chapters of the current contractions, we will thus try and reconfigure the whole study in a manner that appeals to the less versed in the aspects of tpolitical entaglement in the city of beirut and more globally in the levantine and south levantine area.
+In extrapolating common themes that are so hegemonic in academia I’ve decided to present a counter-approach.
 
-Regarding the submission of previously presented documents we adopted a two-fold approach to the problematic we first envisaged the structure of the current state of events followed by a reconsideration of our previous assesment in the non-sensical.
+First I looked at the distribution of public higher education locations within the city of Beirut, namely faculties and offices of the Lebanese University, I’ve overlapped major mass transit routes to the map and concluded two major findings:
 
-For these matters to be reassesed we were facing major political obstacles within the dynamics of our close-knit group e nwant to emphasis the importance of the bionese approach to group politics, this first goes hand in hand with the reconsideration of the whole environement previously layed bare by our dynmics and our
+- The Lebanese University is pushed the furthest away from the administrative borders of Beirut.
+Bus/Van line number 4 is the most used route in the greater Beirut area, it goes from the LU in the southern suburb all the way to Fransabank in the buzzing Hamra street.
+- The Bachoura neighborhood sits close to this busy line, and this is exactly where I propose to build a student union right in the heart of Beirut Central District adjoining the Beirut Digital District project.
 
-{{< gallery "/img/alex.webp" "alexi" "/img/lorient.webp" "lorient" >}}
+The project is extremely simple is a facility that serves students in their housing, research and leisure needs:
+- Very little space is allocated to car parking in the underground, students especially at LU tend to not own private automobiles.
+- The ground floor is where communal life is organized: cafeteria, libraries and auditoriums.
+- The upper floors are where modular housing units for students are distributed.
+- The whole edifice is built around a central void serving as a stairwell.
 
-{{< gallery "/img/1934.webp" "alexi" "/img/2004.webp" "lorient" >}}
+![facade](/img/m2.webp)
+{{<gallery "/img/m1.webp" "" "/img/m3.webp" "" "/img/m4.webp" "">}}
 
 <iframe src="https://portostap.netlify.app/#port_three" width="100%" height="480" style="border:none; filter: grayscale(100%)"></iframe>

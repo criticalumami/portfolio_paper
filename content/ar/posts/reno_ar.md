@@ -1,27 +1,28 @@
 ---
-date: '2025-07-05T08:29:05+03:00'
+date: '2020-07-05T08:29:05+03:00'
 draft: false
-title: 'ترميم في كارولاينا'
+title: 'ترميم في كارولاينا الشمالية'
 translationKey: "reno"
 cover:
   image: "/img/port_breno.webp"
-  alt: "north carolina" 
-  caption: "North Carolina Renovation"
-  relative: false 
-
+  alt: "renovation concept"
+  caption: "ترميم في كارولاينا الشمالية"
+  relative: false
 tags: ["architecture"]
-categories: ["interior", "architecture", "urban"]
+categories: ["urban", "architecture", "interior"]
 thumbnail: "/img/port_breno.webp"
 type: "posts"
-location: "موقع العينة"
-function: "وظيفة العينة"
-role: "دور العينة"
+location: "كارولاينا الشمالية - الولايات المتحدة الأمريكية"
+function: "تجاري"
+role: "مستشار معماري"
+year: 2020
 rank: 5
 ---
-Invelecab ilicidelit et is videndu cientianitem rem quas mo to mod quis derias autemquae etur? Ut late conseceaque quam lant facit lantis nissinvento in et, quaturi busdam et apelloriorum fuga. Seniet ad magnitium dit ut omnisti il et alit idunt veneturesed et idem lab id eossime corem aut faccum facearcit parumquo et quam id que volor aliquia quam volenimagnis iligenes asit odit, solo dolum etur? Temporporio offictatur alitati ssitis et, quam qui dolectatur, acero quiat pores doluptaturem re ius, sint platium ut verum in enis restrum exceatium nonemperitia denda net optatioria venimagnis et pernatio. Lupiendit lab id et hillo est doluptam, et et ut explibu santia sus as expellandis audi coremperum evender ovidenturis minvend
+اتصل بي صديق عزيز في عصر كورونا، وسألني عما إذا كنت مهتمًا بالعمل على ترميم مبنى تاريخي في ولاية كارولينا الشمالية بالولايات المتحدة الأمريكية، لصديق له كان قد اشترى قطعة الأرض.
 
-Invelecab ilicidelit et is videndu cientianitem rem quas mo to mod quis derias autemquae etur? Ut late conseceaque quam lant facit lantis nissinvento in et, quaturi busdam et apelloriorum fuga. Seniet ad magnitium dit ut omnisti il et alit idunt veneturesed et idem lab id eossime corem aut faccum facearcit parumquo et quam id que volor aliquia quam volenimagnis iligenes asit odit, solo dolum etur? Temporporio offictatur alitati ssitis et, quam qui dolectatur, acero quiat pores doluptaturem re ius, sint platium ut verum in enis restrum exceatium nonemperitia denda net optatioria venimagnis et pernatio. Lupiendit lab id et hillo est doluptam, et et ut explibu santia sus as expellandis audi coremperum evender ovidenturis minvend
+نظرًا لأنني لم أتعامل من قبل مع تعقيدات البناء في أمريكا الشمالية، كنت حريصًا على قبول التحدي.
 
-Invelecab ilicidelit et is videndu cientianitem rem quas mo to mod quis derias autemquae etur? Ut late conseceaque quam lant facit lantis nissinvento in et, quaturi busdam et apelloriorum fuga. Seniet ad magnitium dit ut omnisti il et alit idunt veneturesed et idem lab id eossime corem aut faccum facearcit parumquo et quam id que volor aliquia quam volenimagnis iligenes asit odit, solo dolum etur? Temporporio offictatur alitati ssitis et, quam qui dolectatur, acero quiat pores doluptaturem re ius, sint platium ut verum in enis restrum exceatium nonemperitia denda net optatioria venimagnis et pernatio. Lupiendit lab id et hillo est doluptam, et et ut explibu santia sus as expellandis audi coremperum evender ovidenturis minvend
+تشتمل قطعة الأرض على مبنى من أوائل القرن العشرين كان من المقرر ترميمه من قبل خبراء من أمريكا الشمالية في هذا المجال من الداخل، ومع ذلك، تم تكليفي بالتعاون مع هذا الفريق والمدينة من أجل تنظيم المناظر الطبيعية الخارجية والتزيين ومناطق وقوف السيارات للمشروع.
 
-Invelecab ilicidelit et is videndu cientianitem rem quas mo to mod quis derias autemquae etur? Ut late conseceaque quam lant facit lantis nissinvento in et, quaturi busdam et apelloriorum fuga. Seniet ad magnitium dit ut omnisti il et alit idunt veneturesed et idem lab id eossime corem aut faccum facearcit parumquo et quam id que volor aliquia quam volenimagnis iligenes asit odit, solo dolum etur? Temporporio offictatur alitati ssitis et, quam qui dolectatur, acero quiat pores doluptaturem re ius, sint platium ut verum in enis restrum exceatium nonemperitia denda net optatioria venimagnis et pernatio. Lupiendit lab id et hillo est doluptam, et et ut explibu santia sus as expellandis audi coremperum evender ovidenturis minvend
+![ss](/img/n-5.png "شكل أكاديمي")
+{{<gallery "/img/n-1.png" "" "/img/n-2.png" "" "/img/n-3.png" "" "/img/n-4.png" "" "/img/n-6.png" "" "/img/n-7.png" "" "/img/n-8.png" "" >}}

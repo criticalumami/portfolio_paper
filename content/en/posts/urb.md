@@ -8,8 +8,6 @@ cover:
   alt: "cola roundabout in beirut"
   caption: "garden housing"
   relative: false 
-
-tags: ["architecture"]
 categories: ["urban", "interior", "research"]
 thumbnail: "/img/port_burb.webp"
 type: "posts"
@@ -18,10 +16,16 @@ function: "Sample Function"
 role: "Sample Role"
 rank: 5
 ---
-Invelecab ilicidelit et is videndu cientianitem rem quas mo to mod quis derias autemquae etur? Ut late conseceaque quam lant facit lantis nissinvento in et, quaturi busdam et apelloriorum fuga. Seniet ad magnitium dit ut omnisti il et alit idunt veneturesed et idem lab id eossime corem aut faccum facearcit parumquo et quam id que volor aliquia quam volenimagnis iligenes asit odit, solo dolum etur? Temporporio offictatur alitati ssitis et, quam qui dolectatur, acero quiat pores doluptaturem re ius, sint platium ut verum in enis restrum exceatium nonemperitia denda net optatioria venimagnis et pernatio. Lupiendit lab id et hillo est doluptam, et et ut explibu santia sus as expellandis audi coremperum evender ovidenturis minvend
 
-Invelecab ilicidelit et is videndu cientianitem rem quas mo to mod quis derias autemquae etur? Ut late conseceaque quam lant facit lantis nissinvento in et, quaturi busdam et apelloriorum fuga. Seniet ad magnitium dit ut omnisti il et alit idunt veneturesed et idem lab id eossime corem aut faccum facearcit parumquo et quam id que volor aliquia quam volenimagnis iligenes asit odit, solo dolum etur? Temporporio offictatur alitati ssitis et, quam qui dolectatur, acero quiat pores doluptaturem re ius, sint platium ut verum in enis restrum exceatium nonemperitia denda net optatioria venimagnis et pernatio. Lupiendit lab id et hillo est doluptam, et et ut explibu santia sus as expellandis audi coremperum evender ovidenturis minvend
+ALBA had launched the competition for the extension of its Dekwaneh university and was starting to test the grounds on its students by proposing a design of a suburban housing unit that would include student housing and apartments for sale.
 
-Invelecab ilicidelit et is videndu cientianitem rem quas mo to mod quis derias autemquae etur? Ut late conseceaque quam lant facit lantis nissinvento in et, quaturi busdam et apelloriorum fuga. Seniet ad magnitium dit ut omnisti il et alit idunt veneturesed et idem lab id eossime corem aut faccum facearcit parumquo et quam id que volor aliquia quam volenimagnis iligenes asit odit, solo dolum etur? Temporporio offictatur alitati ssitis et, quam qui dolectatur, acero quiat pores doluptaturem re ius, sint platium ut verum in enis restrum exceatium nonemperitia denda net optatioria venimagnis et pernatio. Lupiendit lab id et hillo est doluptam, et et ut explibu santia sus as expellandis audi coremperum evender ovidenturis minvend
+The major hurdle of the project was dealing with the adjoining Dekwaneh neighborhood that became like family for most of the institution.
 
-Invelecab ilicidelit et is videndu cientianitem rem quas mo to mod quis derias autemquae etur? Ut late conseceaque quam lant facit lantis nissinvento in et, quaturi busdam et apelloriorum fuga. Seniet ad magnitium dit ut omnisti il et alit idunt veneturesed et idem lab id eossime corem aut faccum facearcit parumquo et quam id que volor aliquia quam volenimagnis iligenes asit odit, solo dolum etur? Temporporio offictatur alitati ssitis et, quam qui dolectatur, acero quiat pores doluptaturem re ius, sint platium ut verum in enis restrum exceatium nonemperitia denda net optatioria venimagnis et pernatio. Lupiendit lab id et hillo est doluptam, et et ut explibu santia sus as expellandis audi coremperum evender ovidenturis minvend
+A lesser one was the contradiction in building where a huge swampy green space provided fresh air for this industrial parts of the city.
+My design was a compromise, a forest facing the neighborhood of Dekwaneh and a high-density horizontal edifice containing the development.
+
+(Today the whole swamp is gone and a major business center took its place)
+
+[The PDF](/img/AKG.pdf)
+
+<iframe src="https://portostap.netlify.app/#urb" width="100%" height="480" style="border:none; filter: grayscale(100%)"></iframe>
