@@ -10,7 +10,7 @@ cover:
   caption: "S02 - برج حمود"
   relative: false 
 categories: ["urban", "architecture", "interior", "research"]
-thumbnail: "/img/port_bsima.webp"
+thumbnail: "/img/s2.gif"
 type: "posts"
 location: "بيروت، لبنان"
 function: "مخطط رئيسي للمشاة والتنقل اللطيف"
