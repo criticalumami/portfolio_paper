@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Header */
 .header {
     position: sticky;
@@ -14,7 +16,7 @@
 
 /* Font settings */
 body, html {
-    font-family: 'Courier New', Courier, monospace !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 0.9rem;
 }
 
@@ -145,12 +147,12 @@ body.dark .main .post-entry {
 
 /* Adjust spacing for elements within layouts/index.html */
 .gallery-grid > p {
-    margin-bottom: 1.5rem; /* Increased space after paragraph */
+    margin-bottom: 0.5rem; /* Reduced space after paragraph */
     margin-top: 0.5rem; /* Make paragraph closer to the banner */
 }
 
 .gallery-grid h1 {
-    margin-bottom: 0.5rem; /* Make title closer to categories */
+    margin-bottom: 0.2rem; /* Reduced space to bring title closer to categories */
     margin-top: 0; /* Move title closer to the top */
 }
 
@@ -312,13 +314,12 @@ body.dark .main .post-entry {
     margin-top: 0.2rem; /* Adjusted to remove space above squares */
     justify-content: flex-start; /* Align squares to the left */
     align-items: center;
-    margin-bottom: 1.5rem; /* Increased space after colored squares */
 }
 
 .category-square {
     width: 10px;
     height: 10px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0.5rem;
     /* Removed border-radius for solid corners */
 }
 

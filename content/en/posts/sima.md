@@ -7,7 +7,7 @@ translationKey: "sima"
 cover:
   image: "/img/port_bsima.webp"
   alt: "cola roundabout in beirut"
-  caption: "S02 - Bourj Hammoud"
+  caption: "First Meeting Sketch"
   relative: false 
 categories: ["urban", "architecture", "research"]
 thumbnail: "/img/s2.gif"
@@ -21,8 +21,9 @@ year: 2024-2025
 
 
 
-![sima1](/img/sim2.webp "SIMA-SN Sections")
+![sima1](/img/sim2.webp "SIMA-SN Masterplan")
 
+---
 
 #### Overview & Beginnings
 
@@ -56,6 +57,8 @@ Additionally, we carried out detailed topographical surveys of all seven sectors
 
 You can view an example of this cartography here: [S05 — Beirut Corniche](/img/sima_1_bc.pdf).
 
+---
+
 ![sima1](/img/dat-1.webp "Sevtsuk et al. (2024)")
 {{< gallery "/img/dat-2.webp" "Busmap.me (2017)" "/img/dat-4.webp" "SIMA - Site Survey - BC" "/img/dat-4.webp" "SIMA - Site Survey - BC" >}}
 
@@ -77,6 +80,8 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 
 - Finally this phase also saw frequent consultations with local and regional stakeholders in order to assess both the feasibility of our proposals as well as the reaction of local communities and their participation in the design process.
 
+---
+
 ![sima1](/img/sima1.webp "SIMA Masterplan")
 
 {{< gallery "/img/sima2.webp" "SIMA Intervention Categories" "/img/SIMA3.webp" "Intervention Matrix" >}}
@@ -92,6 +97,8 @@ Securing adequate funding was a major hurdle throughout this process. Our goal w
 Once potential sites of intervention and networks of pedestrian movement were drawn we embarked on the design of actual spatial concepts for the different sections. We followed the previously elaborated matrix to develop localized solutions for each section as well as a systematic design approach for dealing with sidewalks and urban furniture.
 
 This is where the whole project comes together bridging previous analytical works with on-the-ground design methods and procurement means.
+
+---
 
 ![sima1](/img/con-3.webp "Urban Seating")
 
@@ -109,6 +116,8 @@ Finally execution drawings were put together, I had to manage a team of architec
 A major challenge of this phase was my role as a coordinator between project management i.e UNOPS, the engineering firm Kredo and the architects at Akl Architects.
 
 The end product sample (for S07 - Cola Roundabout) could be reviewed [here](/img/rd7.pdf)
+
+---
 
 ![sima1](/img/rd1-1.webp "S01-01")
 

@@ -6,7 +6,7 @@ translationKey: "acad"
 cover:
   image: "/img/port_bacad.webp"
   alt: "pericentral"
-  caption: "BCD Buffer"
+  caption: ""
   relative: false
 categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bacad.webp"
@@ -16,6 +16,7 @@ function: "تحليل وبحث حضري"
 role: "طالب دراسات عليا"
 year: 2020
 rank: 100
+---
 ---
 
 #### عن الدافع

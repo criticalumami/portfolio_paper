@@ -6,7 +6,7 @@ translationKey: "acad"
 cover:
   image: "/img/port_bacad.webp"
   alt: "pericentral"
-  caption: "BCD Buffer"
+  caption: ""
   relative: false 
 categories: ["urban", "architecture", "interior", "research"]
 thumbnail: "/img/port_bacad.webp"
@@ -17,6 +17,7 @@ role: "Graduate Student"
 year: 2020
 rank: 100
 ---
+---
 
 #### On the drive
 
@@ -26,8 +27,10 @@ I've always been intrigued by the geography of the Beirut Central District, I ha
 
 We happen to have a perfect case-study for this phenomenon in Beirut; the [Beirut Digital District](https://en.wikipedia.org/wiki/Beirut_Digital_District), a multi-plot high-end real estate development project situated in one of the poorest areas of central Beirut, an area that is also very close to BCD which offers a plethora of empty plots.
 
+---
+
 {{<gallery "/img/alex.webp" "Alexi Butros 1959" "/img/lorient.webp" "OLJ newspaper 1965">}}
-{{<gallery "/img/1934.webp" "1941" "/img/2004.webp" "2004'">}}
+{{<gallery "/img/1934.webp" "1941" "/img/2004.webp" "2004">}}
 
 
 ---
@@ -51,6 +54,8 @@ This systematic and “linearized” approach produced a graphic format in which
 
 What follows is a linear representation, situated between a map and a chart, which will serve as a guiding framework throughout the remainder of the project.
 
+---
+
 <img src="/img/o.webp" width="100%" style="border:none"></img>
 {{<gallery "/img/pp7.webp" "Linear Method" "/img/pp6.webp" "Linear Cartography">}}
 
@@ -70,10 +75,13 @@ But back to our main concern, the architectural practices in academia. The figur
 
 This density is dictated by law of course but this is also a perfect occasion to revisit the works of Tom Slater and Hisham Achkar, these ratios are first and foremost there to enable developers to maximize profits, only second thoughts are given to the actual effectiveness of high density in these urban areas.
 
+---
+
 ![ss](/img/n1.webp "Academic Form")
 {{<gallery "/img/n3.webp" "Legal Form" "/img/n4.webp" "Land Value">}}
 
 ---
+
 #### Simulating Ideology
 
 We have previously specified the southern part of the ring rift as our specific object of study, as the “linear cartography“ shows several enticing problematics:
@@ -86,6 +94,8 @@ Vast areas of unbuilt plots on the banks of the rift.
 But back to our main concern, the architectural practices in academia. The figure on the lower right represents the legal extent that any future building can occupy (I’ve only studied empty plots or ones that could be demolished). 
 
 This density is dictated by law of course but this is also a perfect occasion to revisit the works of Tom Slater and Hisham Achkar, these ratios are first and foremost there to enable developers to maximize profits, only second thoughts are given to the actual effectiveness of high density in these urban areas.
+
+---
 
 <iframe src="https://portostap.netlify.app/#bei" width="100%" height="480" style="border:none; filter: grayscale(100%)">3D Map of the Border</iframe>
 

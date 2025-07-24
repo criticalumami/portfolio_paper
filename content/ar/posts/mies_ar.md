@@ -6,7 +6,7 @@ translationKey: "mar"
 cover:
   image: "/img/port_bmar.webp"
   alt: "pericentral"
-  caption: "Bergen Assembly NO"
+  caption: ""
   relative: false
 categories: ["architecture", "interior", "research"]
 thumbnail: "/img/port_bmar.webp"
@@ -16,6 +16,7 @@ function: "تنظيم وأرشفة معمارية"
 role: "مهندس معماري مبتدئ"
 rank: 70
 year: 2014
+---
 ---
 أمضيت ما يزيد قليلاً عن عام في برلين، قضيت معظمه في العمل مع ماركوس ميسن في مكتبه للاستشارات المعمارية. تعرفت على ميسن لأول مرة من خلال كتاب وجدته في مكتبة ألبا بعنوان "كابوس المشاركة"، وهو عمل أساسي في المعارضة يتناول التوافقية والأعراف في الفنون والسياسة والعمران بشكل عام.
 

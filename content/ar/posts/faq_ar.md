@@ -6,7 +6,7 @@ translationKey: "faq"
 cover:
   image: "/img/port_bfaq.webp"
   alt: "pericentral"
-  caption: "maps"
+  caption: ""
   relative: false
 categories: ["interior"]
 thumbnail: "/img/port_bfaq.webp"
@@ -16,6 +16,7 @@ function: "وظيفة نموذجية"
 role: "دور نموذجي"
 rank: 5
 draft: true
+---
 ---
 في المقام الأول من تحويلنا، قررنا إعادة عقد الاجتماع وإعادته إلى الخط الثاني في القيادة لتفقد وحضور الأمور الأخرى الأكثر إلحاحًا، وبالتالي تمكنا بشكل دوري من إجراء تحليل شامل للوضع الحالي خاصة بعد الحرب القادمة.
 

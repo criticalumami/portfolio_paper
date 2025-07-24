@@ -6,7 +6,7 @@ translationKey: "lon"
 cover:
   image: "/img/port_blon.webp"
   alt: "long"
-  caption: "housing"
+  caption: ""
   relative: false 
 categories: ["architecture", "interior", "research"]
 thumbnail: "/img/port_blon.webp"
@@ -16,9 +16,12 @@ function: "Communal Center"
 role: "Architectural Student"
 rank: 10
 ---
+---
 
 The academic cursus includes a detailed design project in the later years of the student’s graduate life, it is common to pick very complex architectural elements that make use of bleeding edge engineering software for their calculation.
 I have proposed a return to simple forms that are both common in the latter parts of architectural practice and timeless in terms of their multifaceted usage of available space.
+
+---
 
 ![lel](/img/s1.webp)
 

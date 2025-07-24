@@ -6,15 +6,14 @@ translationKey: "urb"
 cover:
   image: "/img/port_burb.webp"
   alt: "cola roundabout in beirut"
-  caption: "garden housing"
+  caption: ""
   relative: false 
 categories: ["urban", "interior", "research"]
 thumbnail: "/img/port_burb.webp"
 type: "posts"
-location: "Sample Location"
-function: "Sample Function"
-role: "Sample Role"
 rank: 5
+---
+
 ---
 
 ALBA had launched the competition for the extension of its Dekwaneh university and was starting to test the grounds on its students by proposing a design of a suburban housing unit that would include student housing and apartments for sale.
@@ -27,5 +26,7 @@ My design was a compromise, a forest facing the neighborhood of Dekwaneh and a h
 (Today the whole swamp is gone and a major business center took its place)
 
 [The PDF](/img/AKG.pdf)
+
+---
 
 <iframe src="https://portostap.netlify.app/#urb" width="100%" height="480" style="border:none; filter: grayscale(100%)"></iframe>

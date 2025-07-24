@@ -6,7 +6,7 @@ translationKey: "urb"
 cover:
   image: "/img/port_burb.webp"
   alt: "دوار الكولا في بيروت"
-  caption: "إسكان حديقة"
+  caption: ""
   relative: false
 categories: ["urban", "interior", "research"]
 thumbnail: "/img/port_burb.webp"
@@ -15,6 +15,7 @@ location: "موقع نموذجي"
 function: "وظيفة نموذجية"
 role: "دور نموذجي"
 rank: 5
+---
 ---
 
 أطلقت أكاديمية الفنون اللبنانية (ALBA) مسابقة لتوسيع جامعتها في الدكوانة وبدأت في اختبار الأجواء على طلابها من خلال اقتراح تصميم وحدة سكنية في الضواحي تشمل سكنًا للطلاب وشققًا للبيع.

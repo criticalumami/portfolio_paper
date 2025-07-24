@@ -17,6 +17,8 @@ role: "Junior Architect"
 rank: 70
 year: 2014
 ---
+
+---
 I’ve spent little more than a year living in Berlin, most of it working with Markus Miessen in his architecture consultation practice. I first encountered Miessen through a book I found at the ALBA library The Nightmare of Participation, a seminal work of dissent that tackles conformity and norms in the arts, politics and urbanism at large.
 
 In Berlin I’ve worked in an environment that was completely foreign to me, be it in the way buildings are conceived or through the nature of my work at the office.

@@ -6,7 +6,7 @@ translationKey: "sift"
 cover:
   image: "/img/port_bjup.webp"
   alt: "cola roundabout in beirut"
-  caption: "sift"
+  caption: ""
   relative: false 
 thumbnail: "/img/port_bjup.webp"
 type: "posts"
@@ -16,12 +16,21 @@ role: "Sample Role"
 categories: ["video", "research"]
 rank: 80
 ---
+---
 
-### Overview
+### Sifr Magazine A/V
 
 This project started with a previously recorded multi-episode podcast about political economy in the Arab world, I've been contacted to archive the whole audio data content and create a systematic way to produce social media content for the re-release of the episodes on the "sifr" platform. 
 
 Being presented with hours upon hours of recorded audio data I've had to find a way to be able to search through the content in a thematic way, my first attempt was through the "openAI" with the "whisper" library, this is a machine learning algorithm developed by openAI that enables its user to time-tag and transliterate a vast amount of audio data in order to create a text based dataset that could get queried on the fly.
+
+---
+<video width=100% height=100% controls allowfullscreen>
+  <source src="/img/sifr.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+---
 
 ```python
 import tkinter as tk
@@ -181,8 +190,3 @@ if __name__ == "__main__":
     root.mainloop()
 
 ```
-
-<video width=100% height=100% controls allowfullscreen>
-  <source src="/img/sifr.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>

@@ -7,7 +7,7 @@ translationKey: "sima"
 cover:
   image: "/img/port_bsima.webp"
   alt: "دوار الكولا في بيروت"
-  caption: "S02 - برج حمود"
+  caption: ""
   relative: false
 categories: ["urban", "architecture", "research"]
 thumbnail: "/img/s2.gif"
@@ -17,6 +17,7 @@ function: "مخطط رئيسي للمشاة والتنقل اللطيف"
 role: "استشاري تخطيط حضري وهندسة معمارية"
 rank: 200
 year: 2024-2025
+---
 ---
 
 ![sima1](/img/sim2.webp "أقسام SIMA-SN")

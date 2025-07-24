@@ -17,6 +17,8 @@ role: "Architectural Student"
 rank: 90
 ---
 
+---
+
 #### Contingencies
 
 In extrapolating common themes that are so hegemonic in academia I’ve decided to present a counter-approach.
@@ -32,6 +34,8 @@ The project is extremely simple is a facility that serves students in their hous
 - The ground floor is where communal life is organized: cafeteria, libraries and auditoriums.
 - The upper floors are where modular housing units for students are distributed.
 - The whole edifice is built around a central void serving as a stairwell.
+
+---
 
 ![facade](/img/m2.webp)
 {{<gallery "/img/m1.webp" "" "/img/m3.webp" "" "/img/m4.webp" "">}}
