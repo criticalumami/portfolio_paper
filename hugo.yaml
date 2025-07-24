@@ -12,7 +12,7 @@ params:
   customCSS: ["css/custom.css"]
   defaultTheme: auto
   showImage: true
-  description: "I am an architect with a penchant for modernism, however over the years I've found myself diving into geographical information systems and general spatial information storage and representation. This site is where I keep the archive and showcase some web development, urban plannin, architecture, GIS and cartography related work."
+  description: "I’m an architect with a penchant for modernism. Over the years, however, I’ve developed a deep interest in geographic information systems (GIS) and the broader field of spatial data representation. This site serves as an archive and showcase for my work across web development, urban planning, architecture, GIS, and cartography."
   favicon: "/favicon.ico"
   featuredImage: "img/po.webp"
   homepageCategoriesOrder:
@@ -46,7 +46,7 @@ languages:
       mainSections: ["posts"]
       view: "card"
       homeInfoParams:
-        Content: "I am an architect with a penchant for modernism, however over the years I've found myself diving into geographical information systems and general spatial information storage and representation. This site is where I keep the archive and showcase some web development, urban plannin, architecture, GIS and cartography related work."
+        Content: "I’m an architect with a penchant for modernism. Over the years, however, I’ve developed a deep interest in geographic information systems (GIS) and the broader field of spatial data representation. This site serves as an archive and showcase for my work across web development, urban planning, architecture, GIS, and cartography."
         Title: "Work Samples"
       ShowLanguageSwitcher: true  
     title: "Amer Jbeili"
