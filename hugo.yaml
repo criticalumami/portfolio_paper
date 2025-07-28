@@ -41,7 +41,7 @@ languages:
     params:
       defaultTheme: auto
       showImage: true
-      hideFooter: false
+      hideFooter: true
       homePostsSection: "posts"
       mainSections: ["posts"]
       view: "card"
@@ -69,7 +69,7 @@ languages:
     params:
       defaultTheme: auto
       showImage: true
-      hideFooter: flase
+      hideFooter: true
       homePostsSection: "posts"
       mainSections: ["posts"]
       view: "card"
