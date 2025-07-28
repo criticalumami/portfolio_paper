@@ -15,6 +15,7 @@ location: "Beirut LB"
 function: "Student Union"
 role: "Architectural Student"
 rank: 90
+year: 2022
 ---
 
 ---
