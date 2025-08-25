@@ -1,9 +1,9 @@
-baseURL: "https://amerjbeili.netlify.app"
+baseURL: "https://aliajami.netlify.app"
 languageCode: "en-us"
 theme: ["PaperMod"]
 environments:
   production:
-    baseURL: "https://amerjbeili.netlify.app"
+    baseURL: "https://aliajami.netlify.app"
   development:
     baseURL: "http://localhost:1313"
 
